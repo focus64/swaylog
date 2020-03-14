@@ -1,0 +1,1660 @@
+00:00:00.005 [sway/main.c:153] Linux Latitude 5.5.8-arch1-1 #1 SMP PREEMPT Fri, 06 Mar 2020 00:57:33 +0000 x86_64 GNU/Linux
+00:00:00.005 [sway/main.c:169] Contents of /etc/os-release:
+00:00:00.005 [sway/main.c:153] NAME="Antergos Linux"
+00:00:00.005 [sway/main.c:153] VERSION="16.4-ISO-Rolling"
+00:00:00.005 [sway/main.c:153] ID="antergos"
+00:00:00.005 [sway/main.c:153] ID_LIKE="arch"
+00:00:00.005 [sway/main.c:153] PRETTY_NAME="Antergos Linux"
+00:00:00.005 [sway/main.c:153] CPE_NAME="cpe:/o:antergosproject:antergos:16.4"
+00:00:00.005 [sway/main.c:153] ANSI_COLOR="1;34;40"
+00:00:00.005 [sway/main.c:153] HOME_URL="https://antergos.com/"
+00:00:00.005 [sway/main.c:153] SUPPORT_URL="https://forum.antergos.com/"
+00:00:00.005 [sway/main.c:153] BUG_REPORT_URL="https://github.com/antergos"
+00:00:00.005 [sway/main.c:153] 
+00:00:00.005 [sway/main.c:141] LD_LIBRARY_PATH=(null)
+00:00:00.005 [sway/main.c:141] LD_PRELOAD=(null)
+00:00:00.005 [sway/main.c:141] PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+00:00:00.005 [sway/main.c:141] SWAYSOCK=(null)
+00:00:00.006 [sway/server.c:40] Preparing Wayland server initialization
+00:00:00.016 [backend/session/logind.c:821] Successfully loaded logind session
+00:00:00.020 [backend/backend.c:157] Found 1 GPUs
+00:00:00.020 [backend/drm/backend.c:159] Initializing DRM backend for /dev/dri/card0 (i915)
+00:00:00.020 [backend/drm/drm.c:70] Using atomic DRM interface
+00:00:00.020 [backend/drm/drm.c:255] Found 3 DRM CRTCs
+00:00:00.020 [backend/drm/drm.c:176] Found 9 DRM planes
+00:00:00.033 [render/egl.c:246] Using EGL 1.4
+00:00:00.033 [render/egl.c:247] Supported EGL extensions: EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_buffer_age EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_IMG_context_priority EGL_KHR_config_attribs EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display 
+00:00:00.033 [render/egl.c:248] EGL vendor: Mesa Project
+00:00:00.033 [render/egl.c:127] Supported dmabuf buffer formats: AB4H XB4H AR30 XR30 AB30 XB30 AR24 AB24 XR24 XB24 AR15 RG16 R8   R16  GR88 GR32 YUV9 YU11 YU12 YU16 YU24 YVU9 YV11 YV12 YV16 YV24 NV12 P010 P012 P016 NV16 AYUV XYUV YUYV UYVY 
+00:00:00.034 [render/egl.c:286] Failed to obtain a high priority context
+00:00:00.036 [render/gles2/renderer.c:561] Using OpenGL ES 3.2 Mesa 19.3.4
+00:00:00.036 [render/gles2/renderer.c:562] GL vendor: Intel Open Source Technology Center
+00:00:00.036 [render/gles2/renderer.c:563] GL renderer: Mesa DRI Intel(R) HD Graphics 630 (Kaby Lake GT2) 
+00:00:00.036 [render/gles2/renderer.c:564] Supported GLES2 extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_NV_conditional_render GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_OES_viewport_array GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_occlusion_query_boolean GL_EXT_robustness GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_EXT_draw_buffers GL_EXT_map_buffer_range GL_KHR_debug GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_OES_depth_texture_cube_map GL_OES_required_internalformat GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_ANDROID_extension_pack_es31a GL_EXT_base_instance GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_gpu_shader5 GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_render_snorm GL_EXT_shader_io_blocks GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_cube_map_array GL_EXT_texture_norm16 GL_EXT_texture_view GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_robust_buffer_access_behavior GL_NV_image_formats GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_gpu_shader5 GL_OES_primitive_bounding_box GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_texture_view GL_EXT_blend_func_extended GL_EXT_buffer_storage GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_shader_samples_identical GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_NV_fragment_shader_interlock GL_OES_EGL_image_external_essl3 GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_shader_image_atomic GL_EXT_clip_cull_distance GL_EXT_disjoint_timer_query GL_EXT_texture_compression_s3tc_srgb GL_MESA_shader_integer_functions GL_EXT_clip_control GL_EXT_texture_compression_bptc GL_KHR_parallel_shader_compile GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_texture_sRGB_R8 GL_EXT_texture_shadow_lod GL_MESA_framebuffer_flip_y GL_NV_compute_shader_derivatives GL_EXT_demote_to_helper_invocation GL_EXT_depth_clamp GL_EXT_texture_query_lod 
+00:00:00.062 [backend/noop/backend.c:51] Creating noop backend
+00:00:00.066 [sway/main.c:372] Starting sway version 1.4-55016729 (Mar 13 2020, branch 'master')
+00:00:00.066 [sway/server.c:54] Initializing Wayland server
+00:00:00.063 [types/wlr_idle.c:247] idle manager created
+00:00:00.069 [sway/config.c:386] Loading config from /home/focus64/.config/sway/config
+00:00:00.070 [sway/config.c:795] Read line 1: # Default config for sway
+00:00:00.070 [sway/config.c:795] Read line 2: #
+00:00:00.070 [sway/config.c:795] Read line 3: # Copy this to ~/.config/sway/config and edit it to your liking.
+00:00:00.070 [sway/config.c:795] Read line 4: #
+00:00:00.070 [sway/config.c:795] Read line 5: # Read `man 5 sway` for a complete reference.
+00:00:00.070 [sway/config.c:795] Read line 6: 
+00:00:00.070 [sway/config.c:795] Read line 7: ### Variables
+00:00:00.070 [sway/config.c:795] Read line 8: #
+00:00:00.070 [sway/config.c:795] Read line 9: # Logo key. Use Mod1 for Alt.
+00:00:00.070 [sway/config.c:795] Read line 10: set $mod Mod4
+00:00:00.070 [sway/commands.c:372] Config command: set $mod Mod4
+00:00:00.070 [sway/commands.c:392] After replacement: set $mod Mod4
+00:00:00.070 [sway/config.c:795] Read line 11: # Home row direction keys, like vim
+00:00:00.070 [sway/config.c:795] Read line 12: set $left h
+00:00:00.070 [sway/commands.c:372] Config command: set $left h
+00:00:00.070 [sway/commands.c:392] After replacement: set $left h
+00:00:00.070 [sway/config.c:795] Read line 13: set $down j
+00:00:00.070 [sway/commands.c:372] Config command: set $down j
+00:00:00.070 [sway/commands.c:392] After replacement: set $down j
+00:00:00.070 [sway/config.c:795] Read line 14: set $up k
+00:00:00.070 [sway/commands.c:372] Config command: set $up k
+00:00:00.070 [sway/commands.c:392] After replacement: set $up k
+00:00:00.070 [sway/config.c:795] Read line 15: set $right l
+00:00:00.070 [sway/commands.c:372] Config command: set $right l
+00:00:00.070 [sway/commands.c:392] After replacement: set $right l
+00:00:00.070 [sway/config.c:795] Read line 16: 
+00:00:00.070 [sway/config.c:795] Read line 17: set $term alacritty --class kitty_term
+00:00:00.070 [sway/commands.c:372] Config command: set $term alacritty --class kitty_term
+00:00:00.070 [sway/commands.c:392] After replacement: set $term alacritty --class kitty_term
+00:00:00.070 [sway/config.c:795] Read line 18: 
+00:00:00.070 [sway/config.c:795] Read line 19: 
+00:00:00.070 [sway/config.c:795] Read line 20: # colors
+00:00:00.070 [sway/config.c:795] Read line 21: #set $bg #000000
+00:00:00.070 [sway/config.c:795] Read line 22: set $bg #434859
+00:00:00.070 [sway/commands.c:372] Config command: set $bg #434859
+00:00:00.070 [sway/commands.c:392] After replacement: set $bg #434859
+00:00:00.070 [sway/config.c:795] Read line 23: set $bgf #000000
+00:00:00.070 [sway/commands.c:372] Config command: set $bgf #000000
+00:00:00.070 [sway/commands.c:392] After replacement: set $bgf #000000
+00:00:00.070 [sway/config.c:795] Read line 24: set $bga #000000
+00:00:00.070 [sway/commands.c:372] Config command: set $bga #000000
+00:00:00.070 [sway/commands.c:392] After replacement: set $bga #000000
+00:00:00.070 [sway/config.c:795] Read line 25: #set $fg #ffffff
+00:00:00.070 [sway/config.c:795] Read line 26: set $fg #9b59b6
+00:00:00.070 [sway/commands.c:372] Config command: set $fg #9b59b6
+00:00:00.070 [sway/commands.c:392] After replacement: set $fg #9b59b6
+00:00:00.070 [sway/config.c:795] Read line 27: set $fgi #888888
+00:00:00.070 [sway/commands.c:372] Config command: set $fgi #888888
+00:00:00.070 [sway/commands.c:392] After replacement: set $fgi #888888
+00:00:00.070 [sway/config.c:795] Read line 28: set $fgi #f1c40f
+00:00:00.070 [sway/commands.c:372] Config command: set $fgi #f1c40f
+00:00:00.070 [sway/commands.c:392] After replacement: set $fgi #f1c40f
+00:00:00.070 [sway/config.c:795] Read line 29: set $fgu #555555
+00:00:00.070 [sway/commands.c:372] Config command: set $fgu #555555
+00:00:00.070 [sway/commands.c:392] After replacement: set $fgu #555555
+00:00:00.070 [sway/config.c:795] Read line 30: set $btf #000000
+00:00:00.070 [sway/commands.c:372] Config command: set $btf #000000
+00:00:00.070 [sway/commands.c:392] After replacement: set $btf #000000
+00:00:00.070 [sway/config.c:795] Read line 31: set $hb #90b1b1
+00:00:00.070 [sway/commands.c:372] Config command: set $hb #90b1b1
+00:00:00.070 [sway/commands.c:392] After replacement: set $hb #90b1b1
+00:00:00.070 [sway/config.c:795] Read line 32: set $hf #9b59b6
+00:00:00.070 [sway/commands.c:372] Config command: set $hf #9b59b6
+00:00:00.070 [sway/commands.c:392] After replacement: set $hf #9b59b6
+00:00:00.070 [sway/config.c:795] Read line 33: 
+00:00:00.070 [sway/config.c:795] Read line 34: set $menu wofi --show drun --allow-images --allow-markup
+00:00:00.070 [sway/commands.c:372] Config command: set $menu wofi --show drun --allow-images --allow-markup
+00:00:00.070 [sway/commands.c:392] After replacement: set $menu wofi --show drun --allow-images --allow-markup
+00:00:00.070 [sway/config.c:795] Read line 35: 
+00:00:00.070 [sway/config.c:795] Read line 36: 
+00:00:00.070 [sway/config.c:795] Read line 37: ### Output configuration
+00:00:00.070 [sway/config.c:795] Read line 38: #
+00:00:00.070 [sway/config.c:795] Read line 39: # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+00:00:00.070 [sway/config.c:795] Read line 40: output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+00:00:00.070 [sway/commands.c:372] Config command: output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+00:00:00.070 [sway/commands.c:392] After replacement: output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+00:00:00.070 [sway/commands.c:423] Subcommand: bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+00:00:00.073 [sway/config/output.c:223] Adding output * config
+00:00:00.073 [sway/config/output.c:227] Config stored for output * (enabled: -1) (-1x-1@-1.000000Hz position -1,-1 scale -1.000000 subpixel unknown transform -1) (bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill) (dpms 0) (max render time: -1)
+00:00:00.073 [sway/config/output.c:758] spawn_swaybg cmd[0] = swaybg
+00:00:00.073 [sway/config/output.c:758] spawn_swaybg cmd[1] = -o
+00:00:00.073 [sway/config/output.c:758] spawn_swaybg cmd[2] = *
+00:00:00.073 [sway/config/output.c:758] spawn_swaybg cmd[3] = -i
+00:00:00.073 [sway/config/output.c:758] spawn_swaybg cmd[4] = /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png
+00:00:00.073 [sway/config/output.c:758] spawn_swaybg cmd[5] = -m
+00:00:00.073 [sway/config/output.c:758] spawn_swaybg cmd[6] = fill
+00:00:00.074 [sway/config.c:795] Read line 41: output eDP-1 pos 0 0 res 3840x2160 scale 2
+00:00:00.074 [sway/commands.c:372] Config command: output eDP-1 pos 0 0 res 3840x2160 scale 2
+00:00:00.074 [sway/commands.c:392] After replacement: output eDP-1 pos 0 0 res 3840x2160 scale 2
+00:00:00.074 [sway/commands.c:423] Subcommand: pos 0 0 res 3840x2160 scale 2
+00:00:00.074 [sway/commands.c:423] Subcommand: res 3840x2160 scale 2
+00:00:00.074 [sway/commands.c:423] Subcommand: scale 2
+00:00:00.074 [sway/config/output.c:210] Adding non-wildcard output config
+00:00:00.074 [sway/config/output.c:213] Merging on top of output * config
+00:00:00.074 [sway/config/output.c:227] Config stored for output eDP-1 (enabled: -1) (3840x2160@-1.000000Hz position 0,0 scale 2.000000 subpixel unknown transform -1) (bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill) (dpms 0) (max render time: -1)
+00:00:00.074 [sway/config.c:795] Read line 42: output DP-5 pos 1920 0 res 2560x1440
+00:00:00.074 [sway/commands.c:372] Config command: output DP-5 pos 1920 0 res 2560x1440
+00:00:00.074 [sway/commands.c:392] After replacement: output DP-5 pos 1920 0 res 2560x1440
+00:00:00.074 [sway/commands.c:423] Subcommand: pos 1920 0 res 2560x1440
+00:00:00.074 [sway/commands.c:423] Subcommand: res 2560x1440
+00:00:00.074 [sway/config/output.c:210] Adding non-wildcard output config
+00:00:00.074 [sway/config/output.c:213] Merging on top of output * config
+00:00:00.074 [sway/config/output.c:227] Config stored for output DP-5 (enabled: -1) (2560x1440@-1.000000Hz position 1920,0 scale -1.000000 subpixel unknown transform -1) (bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill) (dpms 0) (max render time: -1)
+00:00:00.074 [sway/config.c:795] Read line 43: 
+00:00:00.074 [sway/config.c:795] Read line 44: #
+00:00:00.074 [sway/config.c:795] Read line 45: # Example configuration:
+00:00:00.074 [sway/config.c:795] Read line 46: #
+00:00:00.074 [sway/config.c:795] Read line 47: #   output HDMI-A-1 resolution 1920x1080 position 1920,0
+00:00:00.074 [sway/config.c:795] Read line 48: #
+00:00:00.074 [sway/config.c:795] Read line 49: # You can get the names of your outputs by running: swaymsg -t get_outputs
+00:00:00.074 [sway/config.c:795] Read line 50: #
+00:00:00.074 [sway/config.c:795] Read line 51: 
+00:00:00.074 [sway/config.c:795] Read line 52: # Clamshell Mode
+00:00:00.074 [sway/config.c:795] Read line 53: set $laptop eDP-1
+00:00:00.074 [sway/commands.c:372] Config command: set $laptop eDP-1
+00:00:00.074 [sway/commands.c:392] After replacement: set $laptop eDP-1
+00:00:00.074 [sway/config.c:795] Read line 54: bindswitch --reload lid:on output $laptop disable
+00:00:00.074 [sway/commands.c:372] Config command: bindswitch --reload lid:on output $laptop disable
+00:00:00.074 [sway/commands.c:392] After replacement: bindswitch --reload lid:on output eDP-1 disable
+00:00:00.074 [sway/commands/bind.c:234] bindswitch - Bound lid:on to command `output eDP-1 disable`
+00:00:00.074 [sway/config.c:795] Read line 55: bindswitch --reload lid:off output $laptop enable
+00:00:00.074 [sway/commands.c:372] Config command: bindswitch --reload lid:off output $laptop enable
+00:00:00.074 [sway/commands.c:392] After replacement: bindswitch --reload lid:off output eDP-1 enable
+00:00:00.074 [sway/commands/bind.c:234] bindswitch - Bound lid:off to command `output eDP-1 enable`
+00:00:00.074 [sway/config.c:795] Read line 56: 
+00:00:00.074 [sway/config.c:795] Read line 57: ### Idle configuration
+00:00:00.074 [sway/config.c:795] Read line 58: #
+00:00:00.074 [sway/config.c:795] Read line 59: # Example configuration:
+00:00:00.074 [sway/config.c:795] Read line 60: #
+00:00:00.074 [sway/config.c:795] Read line 61: # exec swayidle -w \
+00:00:00.074 [sway/config.c:795] Read line 62: #          timeout 300 'swaylock -f -c 000000' \
+00:00:00.074 [sway/config.c:795] Read line 63: #          timeout 600 'swaymsg "output * dpms off"' \
+00:00:00.074 [sway/config.c:795] Read line 64: #               resume 'swaymsg "output * dpms on"' \
+00:00:00.074 [sway/config.c:795] Read line 65: #          before-sleep 'swaylock -f -c 000000'
+00:00:00.074 [sway/config.c:795] Read line 66: #
+00:00:00.074 [sway/config.c:795] Read line 67: # This will lock your screen after 300 seconds of inactivity, then turn off
+00:00:00.074 [sway/config.c:795] Read line 68: # your displays after another 300 seconds, and turn your screens back on when
+00:00:00.074 [sway/config.c:795] Read line 69: # resumed. It will also lock your screen before your computer goes to sleep.
+00:00:00.074 [sway/config.c:795] Read line 70: 
+00:00:00.074 [sway/config.c:795] Read line 71: ### Input configuration
+00:00:00.074 [sway/config.c:795] Read line 72: #
+00:00:00.074 [sway/config.c:795] Read line 73: # Example configuration:
+00:00:00.074 [sway/config.c:795] Read line 74: #
+00:00:00.074 [sway/config.c:795] Read line 75: #   input "2:14:SynPS/2_Synaptics_TouchPad" {
+00:00:00.074 [sway/config.c:795] Read line 76: #       dwt enabled
+00:00:00.074 [sway/config.c:795] Read line 77: #       tap enabled
+00:00:00.074 [sway/config.c:795] Read line 78: #       natural_scroll enabled
+00:00:00.074 [sway/config.c:795] Read line 79: #       middle_emulation enabled
+00:00:00.074 [sway/config.c:795] Read line 80: #   }
+00:00:00.074 [sway/config.c:795] Read line 81: #
+00:00:00.074 [sway/config.c:795] Read line 82: # You can get the names of your inputs by running: swaymsg -t get_inputs
+00:00:00.074 [sway/config.c:795] Read line 83: # Read `man 5 sway-input` for more information about this section.
+00:00:00.074 [sway/config.c:795] Read line 84: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" {
+00:00:00.074 [sway/config.c:849] Entering block 'input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad"'
+00:00:00.074 [sway/config.c:795] Read line 85:     dwt enabled
+00:00:00.074 [sway/commands.c:372] Config command: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" dwt enabled
+00:00:00.074 [sway/commands.c:392] After replacement: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" dwt enabled
+00:00:00.074 [sway/commands/input.c:53] entering input block: 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.074 [sway/config/input.c:15] new_input_config(1739:31251:DLL07BF:01_06CB:7A13_Touchpad)
+00:00:00.074 [sway/commands.c:423] Subcommand: dwt enabled
+00:00:00.074 [sway/config/input.c:15] new_input_config(temp)
+00:00:00.077 [sway/config/input.c:333] Config stored for input 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.077 [sway/config.c:795] Read line 86:     tap enabled
+00:00:00.077 [sway/commands.c:372] Config command: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" tap enabled
+00:00:00.077 [sway/commands.c:392] After replacement: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" tap enabled
+00:00:00.077 [sway/commands/input.c:53] entering input block: 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.077 [sway/config/input.c:15] new_input_config(1739:31251:DLL07BF:01_06CB:7A13_Touchpad)
+00:00:00.077 [sway/commands.c:423] Subcommand: tap enabled
+00:00:00.077 [sway/config/input.c:15] new_input_config(temp)
+00:00:00.079 [sway/config/input.c:333] Config stored for input 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.079 [sway/config.c:795] Read line 87:     natural_scroll enabled
+00:00:00.079 [sway/commands.c:372] Config command: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" natural_scroll enabled
+00:00:00.079 [sway/commands.c:392] After replacement: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" natural_scroll enabled
+00:00:00.079 [sway/commands/input.c:53] entering input block: 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.079 [sway/config/input.c:15] new_input_config(1739:31251:DLL07BF:01_06CB:7A13_Touchpad)
+00:00:00.079 [sway/commands.c:423] Subcommand: natural_scroll enabled
+00:00:00.079 [sway/config/input.c:15] new_input_config(temp)
+00:00:00.081 [sway/config/input.c:333] Config stored for input 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.081 [sway/config.c:795] Read line 88:     middle_emulation enabled
+00:00:00.081 [sway/commands.c:372] Config command: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" middle_emulation enabled
+00:00:00.081 [sway/commands.c:392] After replacement: input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad" middle_emulation enabled
+00:00:00.081 [sway/commands/input.c:53] entering input block: 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.081 [sway/config/input.c:15] new_input_config(1739:31251:DLL07BF:01_06CB:7A13_Touchpad)
+00:00:00.081 [sway/commands.c:423] Subcommand: middle_emulation enabled
+00:00:00.081 [sway/config/input.c:15] new_input_config(temp)
+00:00:00.083 [sway/config/input.c:333] Config stored for input 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.083 [sway/config.c:795] Read line 89: }
+00:00:00.083 [sway/config.c:866] Exiting block 'input "1739:31251:DLL07BF:01_06CB:7A13_Touchpad"'
+00:00:00.083 [sway/config.c:795] Read line 90: 
+00:00:00.083 [sway/config.c:795] Read line 91: ### Key bindings
+00:00:00.083 [sway/config.c:795] Read line 92: #
+00:00:00.083 [sway/config.c:795] Read line 93: # Basics:
+00:00:00.083 [sway/config.c:795] Read line 94: #
+00:00:00.083 [sway/config.c:795] Read line 95:     # start a terminal
+00:00:00.083 [sway/config.c:795] Read line 96:     bindsym $mod+Return exec $term
+00:00:00.083 [sway/commands.c:372] Config command: bindsym $mod+Return exec $term
+00:00:00.083 [sway/commands.c:392] After replacement: bindsym Mod4+Return exec alacritty --class kitty_term
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Mod4+Return to command `exec alacritty --class kitty_term` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 97: 
+00:00:00.083 [sway/config.c:795] Read line 98:     # kill focused window
+00:00:00.083 [sway/config.c:795] Read line 99:     bindsym $mod+Shift+q kill
+00:00:00.083 [sway/commands.c:372] Config command: bindsym $mod+Shift+q kill
+00:00:00.083 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+q kill
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+q to command `kill` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 100: 
+00:00:00.083 [sway/config.c:795] Read line 101:     # start your launcher
+00:00:00.083 [sway/config.c:795] Read line 102:     bindsym $mod+d exec $menu
+00:00:00.083 [sway/commands.c:372] Config command: bindsym $mod+d exec $menu
+00:00:00.083 [sway/commands.c:392] After replacement: bindsym Mod4+d exec wofi --show drun --allow-images --allow-markup
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Mod4+d to command `exec wofi --show drun --allow-images --allow-markup` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 103:     #bindsym $mod+Shift+d exec $menu-run
+00:00:00.083 [sway/config.c:795] Read line 104: 
+00:00:00.083 [sway/config.c:795] Read line 105:     # Drag floating windows by holding down $mod and left mouse button.
+00:00:00.083 [sway/config.c:795] Read line 106:     # Resize them with right mouse button + $mod.
+00:00:00.083 [sway/config.c:795] Read line 107:     # Despite the name, also works for non-floating windows.
+00:00:00.083 [sway/config.c:795] Read line 108:     # Change normal to inverse to use left mouse button for resizing and right
+00:00:00.083 [sway/config.c:795] Read line 109:     # mouse button for dragging.
+00:00:00.083 [sway/config.c:795] Read line 110:     floating_modifier $mod normal
+00:00:00.083 [sway/commands.c:372] Config command: floating_modifier $mod normal
+00:00:00.083 [sway/commands.c:392] After replacement: floating_modifier Mod4 normal
+00:00:00.083 [sway/config.c:795] Read line 111: 
+00:00:00.083 [sway/config.c:795] Read line 112:     # reload the configuration file
+00:00:00.083 [sway/config.c:795] Read line 113:     bindsym $mod+Shift+c reload
+00:00:00.083 [sway/commands.c:372] Config command: bindsym $mod+Shift+c reload
+00:00:00.083 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+c reload
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+c to command `reload` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 114: 
+00:00:00.083 [sway/config.c:795] Read line 115:     # exit sway (logs you out of your Wayland session)
+00:00:00.083 [sway/config.c:795] Read line 116:     #bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+00:00:00.083 [sway/config.c:795] Read line 117:     set $mode_system System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown
+00:00:00.083 [sway/commands.c:372] Config command: set $mode_system System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown
+00:00:00.083 [sway/commands.c:392] After replacement: set $mode_system System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown
+00:00:00.083 [sway/config.c:795] Read line 118:     #set $mode_system System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown, (R) UEFI
+00:00:00.083 [sway/config.c:795] Read line 119:     mode "$mode_system" {
+00:00:00.083 [sway/config.c:849] Entering block 'mode "$mode_system"'
+00:00:00.083 [sway/config.c:795] Read line 120:         bindsym l exec $lock, mode "default"
+00:00:00.083 [sway/commands.c:372] Config command: mode "$mode_system" bindsym l exec $lock, mode "default"
+00:00:00.083 [sway/commands.c:392] After replacement: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown" bindsym l exec $lock, mode "default"
+00:00:00.083 [sway/commands.c:423] Subcommand: bindsym l exec $lock, mode "default"
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound l to command `exec $lock, mode "default"` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 121:         bindsym e exit
+00:00:00.083 [sway/commands.c:372] Config command: mode "$mode_system" bindsym e exit
+00:00:00.083 [sway/commands.c:392] After replacement: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown" bindsym e exit
+00:00:00.083 [sway/commands.c:423] Subcommand: bindsym e exit
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound e to command `exit` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 122:         bindsym s exec --no-startup-id systemctl suspend, mode "default"
+00:00:00.083 [sway/commands.c:372] Config command: mode "$mode_system" bindsym s exec --no-startup-id systemctl suspend, mode "default"
+00:00:00.083 [sway/commands.c:392] After replacement: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown" bindsym s exec --no-startup-id systemctl suspend, mode "default"
+00:00:00.083 [sway/commands.c:423] Subcommand: bindsym s exec --no-startup-id systemctl suspend, mode "default"
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound s to command `exec --no-startup-id systemctl suspend, mode "default"` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 123:         bindsym r exec --no-startup-id systemctl reboot, mode "default"
+00:00:00.083 [sway/commands.c:372] Config command: mode "$mode_system" bindsym r exec --no-startup-id systemctl reboot, mode "default"
+00:00:00.083 [sway/commands.c:392] After replacement: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown" bindsym r exec --no-startup-id systemctl reboot, mode "default"
+00:00:00.083 [sway/commands.c:423] Subcommand: bindsym r exec --no-startup-id systemctl reboot, mode "default"
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound r to command `exec --no-startup-id systemctl reboot, mode "default"` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 124:         bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
+00:00:00.083 [sway/commands.c:372] Config command: mode "$mode_system" bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
+00:00:00.083 [sway/commands.c:392] After replacement: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown" bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
+00:00:00.083 [sway/commands.c:423] Subcommand: bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Shift+s to command `exec --no-startup-id systemctl poweroff -i, mode "default"` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 125:         #bindsym Shift+r exec --no-startup-id systemctl reboot --firmware-setup, mode "default"
+00:00:00.083 [sway/config.c:795] Read line 126:         # return to default mode
+00:00:00.083 [sway/config.c:795] Read line 127:         bindsym Return mode "default"
+00:00:00.083 [sway/commands.c:372] Config command: mode "$mode_system" bindsym Return mode "default"
+00:00:00.083 [sway/commands.c:392] After replacement: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown" bindsym Return mode "default"
+00:00:00.083 [sway/commands.c:423] Subcommand: bindsym Return mode "default"
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Return to command `mode "default"` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 128:         bindsym Escape mode "default"
+00:00:00.083 [sway/commands.c:372] Config command: mode "$mode_system" bindsym Escape mode "default"
+00:00:00.083 [sway/commands.c:392] After replacement: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown" bindsym Escape mode "default"
+00:00:00.083 [sway/commands.c:423] Subcommand: bindsym Escape mode "default"
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Escape to command `mode "default"` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 129:     }
+00:00:00.083 [sway/config.c:866] Exiting block 'mode "$mode_system"'
+00:00:00.083 [sway/config.c:795] Read line 130:     bindsym $mod+Shift+e mode "$mode_system"
+00:00:00.083 [sway/commands.c:372] Config command: bindsym $mod+Shift+e mode "$mode_system"
+00:00:00.083 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+e mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown"
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+e to command `mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown"` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 131: 
+00:00:00.083 [sway/config.c:795] Read line 132:     # set audio output
+00:00:00.083 [sway/config.c:795] Read line 133:     #set $mode_audio_output $(pacmd list-sinks | awk '/index/ || /name:/')
+00:00:00.083 [sway/config.c:795] Read line 134:     #mode "$mode_audio_output" {
+00:00:00.083 [sway/config.c:795] Read line 135:     #    # return to default mode
+00:00:00.083 [sway/config.c:795] Read line 136:     #    bindsym Return mode "default"
+00:00:00.083 [sway/config.c:795] Read line 137:     #    bindsym Escape mode "default"
+00:00:00.083 [sway/config.c:795] Read line 138:     #}
+00:00:00.083 [sway/config.c:795] Read line 139:     #bindsym $mod+Shift+a mode "$mode_audio_output"
+00:00:00.083 [sway/config.c:795] Read line 140: 
+00:00:00.083 [sway/config.c:795] Read line 141: #
+00:00:00.083 [sway/config.c:795] Read line 142: # Moving around:
+00:00:00.083 [sway/config.c:795] Read line 143: #
+00:00:00.083 [sway/config.c:795] Read line 144:     # Move your focus around
+00:00:00.083 [sway/config.c:795] Read line 145:     bindsym $mod+$left focus left
+00:00:00.083 [sway/commands.c:372] Config command: bindsym $mod+$left focus left
+00:00:00.083 [sway/commands.c:392] After replacement: bindsym Mod4+h focus left
+00:00:00.083 [sway/commands/bind.c:297] bindsym - Bound Mod4+h to command `focus left` for device '*'
+00:00:00.083 [sway/config.c:795] Read line 146:     bindsym $mod+$down focus down
+00:00:00.083 [sway/commands.c:372] Config command: bindsym $mod+$down focus down
+00:00:00.083 [sway/commands.c:392] After replacement: bindsym Mod4+j focus down
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+j to command `focus down` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 147:     bindsym $mod+$up focus up
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+$up focus up
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+k focus up
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+k to command `focus up` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 148:     bindsym $mod+$right focus right
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+$right focus right
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+l focus right
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+l to command `focus right` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 149:     # or use $mod+[up|down|left|right]
+00:00:00.084 [sway/config.c:795] Read line 150:     bindsym $mod+Left focus left
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Left focus left
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Left focus left
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Left to command `focus left` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 151:     bindsym $mod+Down focus down
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Down focus down
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Down focus down
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Down to command `focus down` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 152:     bindsym $mod+Up focus up
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Up focus up
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Up focus up
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Up to command `focus up` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 153:     bindsym $mod+Right focus right
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Right focus right
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Right focus right
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Right to command `focus right` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 154: 
+00:00:00.084 [sway/config.c:795] Read line 155:     # _move_ the focused window with the same, but add Shift
+00:00:00.084 [sway/config.c:795] Read line 156:     bindsym $mod+Shift+$left move left
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+$left move left
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+h move left
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+h to command `move left` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 157:     bindsym $mod+Shift+$down move down
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+$down move down
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+j move down
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+j to command `move down` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 158:     bindsym $mod+Shift+$up move up
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+$up move up
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+k move up
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+k to command `move up` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 159:     bindsym $mod+Shift+$right move right
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+$right move right
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+l move right
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+l to command `move right` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 160:     # ditto, with arrow keys
+00:00:00.084 [sway/config.c:795] Read line 161:     bindsym $mod+Shift+Left move left
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+Left move left
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+Left move left
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+Left to command `move left` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 162:     bindsym $mod+Shift+Down move down
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+Down move down
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+Down move down
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+Down to command `move down` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 163:     bindsym $mod+Shift+Up move up
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+Up move up
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+Up move up
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+Up to command `move up` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 164:     bindsym $mod+Shift+Right move right
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+Right move right
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+Right move right
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+Right to command `move right` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 165: #
+00:00:00.084 [sway/config.c:795] Read line 166: # Workspaces:
+00:00:00.084 [sway/config.c:795] Read line 167: #
+00:00:00.084 [sway/config.c:795] Read line 168:     # switch to workspace
+00:00:00.084 [sway/config.c:795] Read line 169:     bindsym $mod+1 workspace 1
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+1 workspace 1
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+1 workspace 1
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+1 to command `workspace 1` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 170:     bindsym $mod+2 workspace 2
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+2 workspace 2
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+2 workspace 2
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+2 to command `workspace 2` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 171:     bindsym $mod+3 workspace 3
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+3 workspace 3
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+3 workspace 3
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+3 to command `workspace 3` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 172:     bindsym $mod+4 workspace 4
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+4 workspace 4
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+4 workspace 4
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+4 to command `workspace 4` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 173:     bindsym $mod+5 workspace 5
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+5 workspace 5
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+5 workspace 5
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+5 to command `workspace 5` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 174:     bindsym $mod+6 workspace 6
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+6 workspace 6
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+6 workspace 6
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+6 to command `workspace 6` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 175:     bindsym $mod+7 workspace 7
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+7 workspace 7
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+7 workspace 7
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+7 to command `workspace 7` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 176:     bindsym $mod+8 workspace 8
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+8 workspace 8
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+8 workspace 8
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+8 to command `workspace 8` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 177:     bindsym $mod+9 workspace 9
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+9 workspace 9
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+9 workspace 9
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+9 to command `workspace 9` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 178:     bindsym $mod+0 workspace 10
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+0 workspace 10
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+0 workspace 10
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+0 to command `workspace 10` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 179:     # move focused container to workspace
+00:00:00.084 [sway/config.c:795] Read line 180:     bindsym $mod+Shift+1 move container to workspace 1
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+1 move container to workspace 1
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+1 move container to workspace 1
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+1 to command `move container to workspace 1` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 181:     bindsym $mod+Shift+2 move container to workspace 2
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+2 move container to workspace 2
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+2 move container to workspace 2
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+2 to command `move container to workspace 2` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 182:     bindsym $mod+Shift+3 move container to workspace 3
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+3 move container to workspace 3
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+3 move container to workspace 3
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+3 to command `move container to workspace 3` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 183:     bindsym $mod+Shift+4 move container to workspace 4
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+4 move container to workspace 4
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+4 move container to workspace 4
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+4 to command `move container to workspace 4` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 184:     bindsym $mod+Shift+5 move container to workspace 5
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+5 move container to workspace 5
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+5 move container to workspace 5
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+5 to command `move container to workspace 5` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 185:     bindsym $mod+Shift+6 move container to workspace 6
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+6 move container to workspace 6
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+6 move container to workspace 6
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+6 to command `move container to workspace 6` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 186:     bindsym $mod+Shift+7 move container to workspace 7
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+7 move container to workspace 7
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+7 move container to workspace 7
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+7 to command `move container to workspace 7` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 187:     bindsym $mod+Shift+8 move container to workspace 8
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+8 move container to workspace 8
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+8 move container to workspace 8
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+8 to command `move container to workspace 8` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 188:     bindsym $mod+Shift+9 move container to workspace 9
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+9 move container to workspace 9
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+9 move container to workspace 9
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+9 to command `move container to workspace 9` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 189:     bindsym $mod+Shift+0 move container to workspace 10
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+Shift+0 move container to workspace 10
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+0 move container to workspace 10
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+0 to command `move container to workspace 10` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 190:     # Note: workspaces can have any name you want, not just numbers.
+00:00:00.084 [sway/config.c:795] Read line 191:     # We just use 1-10 as the default.
+00:00:00.084 [sway/config.c:795] Read line 192: #
+00:00:00.084 [sway/config.c:795] Read line 193: # Layout stuff:
+00:00:00.084 [sway/config.c:795] Read line 194: #
+00:00:00.084 [sway/config.c:795] Read line 195:     # You can "split" the current object of your focus with
+00:00:00.084 [sway/config.c:795] Read line 196:     # $mod+b or $mod+v, for horizontal and vertical splits
+00:00:00.084 [sway/config.c:795] Read line 197:     # respectively.
+00:00:00.084 [sway/config.c:795] Read line 198:     bindsym $mod+b splith
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+b splith
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+b splith
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+b to command `splith` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 199:     bindsym $mod+v splitv
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+v splitv
+00:00:00.084 [sway/commands.c:392] After replacement: bindsym Mod4+v splitv
+00:00:00.084 [sway/commands/bind.c:297] bindsym - Bound Mod4+v to command `splitv` for device '*'
+00:00:00.084 [sway/config.c:795] Read line 200: 
+00:00:00.084 [sway/config.c:795] Read line 201:     # Switch the current container between different layout styles
+00:00:00.084 [sway/config.c:795] Read line 202:     bindsym $mod+s layout stacking
+00:00:00.084 [sway/commands.c:372] Config command: bindsym $mod+s layout stacking
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+s layout stacking
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+s to command `layout stacking` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 203:     bindsym $mod+w layout tabbed
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+w layout tabbed
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+w layout tabbed
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+w to command `layout tabbed` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 204:     bindsym $mod+e layout toggle split
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+e layout toggle split
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+e layout toggle split
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+e to command `layout toggle split` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 205: 
+00:00:00.085 [sway/config.c:795] Read line 206:     # Make the current focus fullscreen
+00:00:00.085 [sway/config.c:795] Read line 207:     bindsym $mod+f fullscreen
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+f fullscreen
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+f fullscreen
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+f to command `fullscreen` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 208: 
+00:00:00.085 [sway/config.c:795] Read line 209:     # Toggle the current focus between tiling and floating mode
+00:00:00.085 [sway/config.c:795] Read line 210:     bindsym $mod+Shift+space floating toggle
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+Shift+space floating toggle
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+space floating toggle
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+space to command `floating toggle` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 211: 
+00:00:00.085 [sway/config.c:795] Read line 212:     # Swap focus between the tiling area and the floating area
+00:00:00.085 [sway/config.c:795] Read line 213:     bindsym $mod+space focus mode_toggle
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+space focus mode_toggle
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+space focus mode_toggle
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+space to command `focus mode_toggle` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 214: 
+00:00:00.085 [sway/config.c:795] Read line 215:     # move focus to the parent container
+00:00:00.085 [sway/config.c:795] Read line 216:     bindsym $mod+a focus parent
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+a focus parent
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+a focus parent
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+a to command `focus parent` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 217: #
+00:00:00.085 [sway/config.c:795] Read line 218: # Scratchpad:
+00:00:00.085 [sway/config.c:795] Read line 219: #
+00:00:00.085 [sway/config.c:795] Read line 220:     # Sway has a "scratchpad", which is a bag of holding for windows.
+00:00:00.085 [sway/config.c:795] Read line 221:     # You can send windows there and get them back later.
+00:00:00.085 [sway/config.c:795] Read line 222: 
+00:00:00.085 [sway/config.c:795] Read line 223:     # Move the currently focused window to the scratchpad
+00:00:00.085 [sway/config.c:795] Read line 224:     bindsym $mod+Shift+minus move scratchpad
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+Shift+minus move scratchpad
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+Shift+minus move scratchpad
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+Shift+minus to command `move scratchpad` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 225: 
+00:00:00.085 [sway/config.c:795] Read line 226:     # Show the next scratchpad window or hide the focused scratchpad window.
+00:00:00.085 [sway/config.c:795] Read line 227:     # If there are multiple scratchpad windows, this command cycles through them.
+00:00:00.085 [sway/config.c:795] Read line 228:     bindsym $mod+minus scratchpad show
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+minus scratchpad show
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+minus scratchpad show
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+minus to command `scratchpad show` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 229: 
+00:00:00.085 [sway/config.c:795] Read line 230: 
+00:00:00.085 [sway/config.c:795] Read line 231: #
+00:00:00.085 [sway/config.c:795] Read line 232: # Resizing containers:
+00:00:00.085 [sway/config.c:795] Read line 233: #
+00:00:00.085 [sway/config.c:795] Read line 234: mode "resize" {
+00:00:00.085 [sway/config.c:849] Entering block 'mode "resize"'
+00:00:00.085 [sway/config.c:795] Read line 235:     # left will shrink the containers width
+00:00:00.085 [sway/config.c:795] Read line 236:     # right will grow the containers width
+00:00:00.085 [sway/config.c:795] Read line 237:     # up will shrink the containers height
+00:00:00.085 [sway/config.c:795] Read line 238:     # down will grow the containers height
+00:00:00.085 [sway/config.c:795] Read line 239:     bindsym $left resize shrink width 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym $left resize shrink width 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym h resize shrink width 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym h resize shrink width 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound h to command `resize shrink width 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 240:     bindsym $down resize grow height 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym $down resize grow height 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym j resize grow height 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym j resize grow height 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound j to command `resize grow height 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 241:     bindsym $up resize shrink height 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym $up resize shrink height 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym k resize shrink height 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym k resize shrink height 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound k to command `resize shrink height 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 242:     bindsym $right resize grow width 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym $right resize grow width 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym l resize grow width 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym l resize grow width 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound l to command `resize grow width 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 243: 
+00:00:00.085 [sway/config.c:795] Read line 244:     # ditto, with arrow keys
+00:00:00.085 [sway/config.c:795] Read line 245:     bindsym Left resize shrink width 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym Left resize shrink width 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym Left resize shrink width 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym Left resize shrink width 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Left to command `resize shrink width 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 246:     bindsym Down resize grow height 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym Down resize grow height 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym Down resize grow height 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym Down resize grow height 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Down to command `resize grow height 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 247:     bindsym Up resize shrink height 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym Up resize shrink height 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym Up resize shrink height 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym Up resize shrink height 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Up to command `resize shrink height 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 248:     bindsym Right resize grow width 10px
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym Right resize grow width 10px
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym Right resize grow width 10px
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym Right resize grow width 10px
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Right to command `resize grow width 10px` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 249: 
+00:00:00.085 [sway/config.c:795] Read line 250:     # return to default mode
+00:00:00.085 [sway/config.c:795] Read line 251:     bindsym Return mode "default"
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym Return mode "default"
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym Return mode "default"
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym Return mode "default"
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Return to command `mode "default"` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 252:     bindsym Escape mode "default"
+00:00:00.085 [sway/commands.c:372] Config command: mode "resize" bindsym Escape mode "default"
+00:00:00.085 [sway/commands.c:392] After replacement: mode "resize" bindsym Escape mode "default"
+00:00:00.085 [sway/commands.c:423] Subcommand: bindsym Escape mode "default"
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Escape to command `mode "default"` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 253: }
+00:00:00.085 [sway/config.c:866] Exiting block 'mode "resize"'
+00:00:00.085 [sway/config.c:795] Read line 254: bindsym $mod+r mode "resize"
+00:00:00.085 [sway/commands.c:372] Config command: bindsym $mod+r mode "resize"
+00:00:00.085 [sway/commands.c:392] After replacement: bindsym Mod4+r mode "resize"
+00:00:00.085 [sway/commands/bind.c:297] bindsym - Bound Mod4+r to command `mode "resize"` for device '*'
+00:00:00.085 [sway/config.c:795] Read line 255: 
+00:00:00.085 [sway/config.c:795] Read line 256: #
+00:00:00.085 [sway/config.c:795] Read line 257: # Status Bar:
+00:00:00.085 [sway/config.c:795] Read line 258: #
+00:00:00.085 [sway/config.c:795] Read line 259: # Read `man 5 sway-bar` for more information about this section.
+00:00:00.085 [sway/config.c:795] Read line 260: bar {
+00:00:00.085 [sway/config.c:849] Entering block 'bar'
+00:00:00.085 [sway/config.c:795] Read line 261:     position top
+00:00:00.085 [sway/commands.c:372] Config command: bar position top
+00:00:00.085 [sway/commands.c:392] After replacement: bar position top
+00:00:00.085 [sway/commands/bar.c:92] Creating bar: bar-0
+00:00:00.085 [sway/commands.c:423] Subcommand: position top
+00:00:00.085 [sway/commands/bar/position.c:15] Setting bar position 'top' for bar: bar-0
+00:00:00.085 [sway/config.c:795] Read line 262: 
+00:00:00.085 [sway/config.c:795] Read line 263:     # When the status_command prints a new line to stdout, swaybar updates.
+00:00:00.085 [sway/config.c:795] Read line 264:     # The default just shows the current date and time.
+00:00:00.085 [sway/config.c:795] Read line 265: 
+00:00:00.085 [sway/config.c:795] Read line 266:     swaybar_command waybar
+00:00:00.085 [sway/commands.c:372] Config command: bar swaybar_command waybar
+00:00:00.085 [sway/commands.c:392] After replacement: bar swaybar_command waybar
+00:00:00.085 [sway/commands.c:423] Subcommand: swaybar_command waybar
+00:00:00.085 [sway/commands/bar/swaybar_command.c:13] Using custom swaybar command: waybar
+00:00:00.085 [sway/config.c:795] Read line 267: 
+00:00:00.085 [sway/config.c:795] Read line 268:     #status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+00:00:00.085 [sway/config.c:795] Read line 269:     #colors {
+00:00:00.085 [sway/config.c:795] Read line 270:     #    statusline #ffffff
+00:00:00.085 [sway/config.c:795] Read line 271:     #    background #323232
+00:00:00.086 [sway/config.c:795] Read line 272:     #    inactive_workspace #32323200 #32323200 #5c5c5c
+00:00:00.086 [sway/config.c:795] Read line 273:     #}
+00:00:00.086 [sway/config.c:795] Read line 274: }
+00:00:00.086 [sway/config.c:866] Exiting block 'bar'
+00:00:00.086 [sway/config.c:795] Read line 275: 
+00:00:00.086 [sway/config.c:795] Read line 276: # 
+00:00:00.086 [sway/config.c:795] Read line 277: # border
+00:00:00.086 [sway/config.c:795] Read line 278: #
+00:00:00.086 [sway/config.c:795] Read line 279: #default_border none
+00:00:00.086 [sway/config.c:795] Read line 280: 
+00:00:00.086 [sway/config.c:795] Read line 281: #
+00:00:00.086 [sway/config.c:795] Read line 282: # make mpv window floating
+00:00:00.086 [sway/config.c:795] Read line 283: #
+00:00:00.086 [sway/config.c:795] Read line 284: for_window [app_id="mpv"] floating enable, focus
+00:00:00.086 [sway/commands.c:372] Config command: for_window [app_id="mpv"] floating enable, focus
+00:00:00.086 [sway/commands.c:392] After replacement: for_window [app_id="mpv"] floating enable, focus
+00:00:00.086 [sway/criteria.c:712] Found pair: app_id=mpv
+00:00:00.086 [sway/commands/for_window.c:34] for_window: '[app_id="mpv"]' -> 'floating enable, focus' added
+00:00:00.086 [sway/config.c:795] Read line 285: for_window [class="mpv"] floating enable, focus
+00:00:00.086 [sway/commands.c:372] Config command: for_window [class="mpv"] floating enable, focus
+00:00:00.086 [sway/commands.c:392] After replacement: for_window [class="mpv"] floating enable, focus
+00:00:00.086 [sway/criteria.c:712] Found pair: class=mpv
+00:00:00.086 [sway/commands/for_window.c:34] for_window: '[class="mpv"]' -> 'floating enable, focus' added
+00:00:00.086 [sway/config.c:795] Read line 286: for_window [title=".*Mozilla Firefox.*"] border none
+00:00:00.086 [sway/commands.c:372] Config command: for_window [title=".*Mozilla Firefox.*"] border none
+00:00:00.086 [sway/commands.c:392] After replacement: for_window [title=".*Mozilla Firefox.*"] border none
+00:00:00.086 [sway/criteria.c:712] Found pair: title=.*Mozilla Firefox.*
+00:00:00.086 [sway/commands/for_window.c:34] for_window: '[title=".*Mozilla Firefox.*"]' -> 'border none' added
+00:00:00.086 [sway/config.c:795] Read line 287: for_window [app_id="kitty_term"] border none
+00:00:00.086 [sway/commands.c:372] Config command: for_window [app_id="kitty_term"] border none
+00:00:00.086 [sway/commands.c:392] After replacement: for_window [app_id="kitty_term"] border none
+00:00:00.086 [sway/criteria.c:712] Found pair: app_id=kitty_term
+00:00:00.086 [sway/commands/for_window.c:34] for_window: '[app_id="kitty_term"]' -> 'border none' added
+00:00:00.086 [sway/config.c:795] Read line 288: for_window [title=".*[Aa]bout.*"] floating enable, focus
+00:00:00.086 [sway/commands.c:372] Config command: for_window [title=".*[Aa]bout.*"] floating enable, focus
+00:00:00.086 [sway/commands.c:392] After replacement: for_window [title=".*[Aa]bout.*"] floating enable, focus
+00:00:00.086 [sway/criteria.c:712] Found pair: title=.*[Aa]bout.*
+00:00:00.086 [sway/commands/for_window.c:34] for_window: '[title=".*[Aa]bout.*"]' -> 'floating enable, focus' added
+00:00:00.086 [sway/config.c:795] Read line 289: for_window [app_id="termfloat"] floating enable, focus, border none, resize set height 500, resize set width 900  
+00:00:00.086 [sway/commands.c:372] Config command: for_window [app_id="termfloat"] floating enable, focus, border none, resize set height 500, resize set width 900
+00:00:00.086 [sway/commands.c:392] After replacement: for_window [app_id="termfloat"] floating enable, focus, border none, resize set height 500, resize set width 900
+00:00:00.086 [sway/criteria.c:712] Found pair: app_id=termfloat
+00:00:00.086 [sway/commands/for_window.c:34] for_window: '[app_id="termfloat"]' -> 'floating enable, focus, border none, resize set height 500, resize set width 900' added
+00:00:00.086 [sway/config.c:795] Read line 290: 
+00:00:00.086 [sway/config.c:795] Read line 291: #
+00:00:00.086 [sway/config.c:795] Read line 292: # Media controls
+00:00:00.086 [sway/config.c:795] Read line 293: # 
+00:00:00.086 [sway/config.c:795] Read line 294: # Pulse Audio controls
+00:00:00.086 [sway/config.c:795] Read line 295: bindsym XF86AudioRaiseVolume exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') +5%
+00:00:00.086 [sway/commands.c:372] Config command: bindsym XF86AudioRaiseVolume exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') +5%
+00:00:00.086 [sway/commands.c:392] After replacement: bindsym XF86AudioRaiseVolume exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') +5%
+00:00:00.086 [sway/commands/bind.c:297] bindsym - Bound XF86AudioRaiseVolume to command `exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') +5%` for device '*'
+00:00:00.086 [sway/config.c:795] Read line 296: bindsym XF86AudioLowerVolume exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') -5%
+00:00:00.086 [sway/commands.c:372] Config command: bindsym XF86AudioLowerVolume exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') -5%
+00:00:00.086 [sway/commands.c:392] After replacement: bindsym XF86AudioLowerVolume exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') -5%
+00:00:00.086 [sway/commands/bind.c:297] bindsym - Bound XF86AudioLowerVolume to command `exec pactl set-sink-volume $(pacmd list-sinks |awk '/* index:/{print $3}') -5%` for device '*'
+00:00:00.086 [sway/config.c:795] Read line 297: bindsym XF86AudioMute exec pactl set-sink-mute $(pacmd list-sinks |awk '/* index:/{print $3}') toggle
+00:00:00.086 [sway/commands.c:372] Config command: bindsym XF86AudioMute exec pactl set-sink-mute $(pacmd list-sinks |awk '/* index:/{print $3}') toggle
+00:00:00.086 [sway/commands.c:392] After replacement: bindsym XF86AudioMute exec pactl set-sink-mute $(pacmd list-sinks |awk '/* index:/{print $3}') toggle
+00:00:00.086 [sway/commands/bind.c:297] bindsym - Bound XF86AudioMute to command `exec pactl set-sink-mute $(pacmd list-sinks |awk '/* index:/{print $3}') toggle` for device '*'
+00:00:00.086 [sway/config.c:795] Read line 298: 
+00:00:00.086 [sway/config.c:795] Read line 299: # Sreen brightness controls
+00:00:00.086 [sway/config.c:795] Read line 300: bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+00:00:00.086 [sway/commands.c:372] Config command: bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+00:00:00.086 [sway/commands.c:392] After replacement: bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+00:00:00.086 [sway/commands/bind.c:297] bindsym - Bound XF86MonBrightnessDown to command `exec brightnessctl set 5%-` for device '*'
+00:00:00.086 [sway/config.c:795] Read line 301: bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+00:00:00.086 [sway/commands.c:372] Config command: bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+00:00:00.086 [sway/commands.c:392] After replacement: bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+00:00:00.086 [sway/commands/bind.c:297] bindsym - Bound XF86MonBrightnessUp to command `exec brightnessctl set +5%` for device '*'
+00:00:00.086 [sway/config.c:795] Read line 302: #bindsym XF86MonBrightnessDown exec light -U  5
+00:00:00.086 [sway/config.c:795] Read line 303: #bindsym XF86MonBrightnessUp exec light -A 5
+00:00:00.086 [sway/config.c:795] Read line 304: 
+00:00:00.086 [sway/config.c:795] Read line 305: # Touchpad toggles
+00:00:00.086 [sway/config.c:795] Read line 306: 
+00:00:00.086 [sway/config.c:795] Read line 307: #bindsym XF86TouchpadToggle exec ~/.config/sway/scripts/toggletouchpad.sh # toggle touchpad
+00:00:00.086 [sway/config.c:795] Read line 308: 
+00:00:00.086 [sway/config.c:795] Read line 309: # Media player controls
+00:00:00.086 [sway/config.c:795] Read line 310: #bindsym XF86AudioPlay exec playerctl play
+00:00:00.086 [sway/config.c:795] Read line 311: #bindsym XF86AudioPause exec playerctl pause
+00:00:00.086 [sway/config.c:795] Read line 312: #bindsym XF86AudioNext exec playerctl next
+00:00:00.086 [sway/config.c:795] Read line 313: #bindsym XF86AudioPrev exec playerctl previous
+00:00:00.086 [sway/config.c:795] Read line 314: 
+00:00:00.086 [sway/config.c:795] Read line 315: #
+00:00:00.086 [sway/config.c:795] Read line 316: # GAPs
+00:00:00.086 [sway/config.c:795] Read line 317: #
+00:00:00.086 [sway/config.c:795] Read line 318: gaps inner 2
+00:00:00.086 [sway/commands.c:372] Config command: gaps inner 2
+00:00:00.086 [sway/commands.c:392] After replacement: gaps inner 2
+00:00:00.086 [sway/config.c:795] Read line 319: gaps outer 2
+00:00:00.086 [sway/commands.c:372] Config command: gaps outer 2
+00:00:00.086 [sway/commands.c:392] After replacement: gaps outer 2
+00:00:00.086 [sway/config.c:795] Read line 320: 
+00:00:00.086 [sway/config.c:795] Read line 321: #
+00:00:00.086 [sway/config.c:795] Read line 322: # Disable Xwayland
+00:00:00.086 [sway/config.c:795] Read line 323: #
+00:00:00.086 [sway/config.c:795] Read line 324: xwayland disable
+00:00:00.086 [sway/commands.c:372] Config command: xwayland disable
+00:00:00.086 [sway/commands.c:392] After replacement: xwayland disable
+00:00:00.086 [sway/config.c:795] Read line 325: 
+00:00:00.086 [sway/config.c:795] Read line 326: #
+00:00:00.086 [sway/config.c:795] Read line 327: # start fcitx
+00:00:00.086 [sway/config.c:795] Read line 328: #
+00:00:00.086 [sway/config.c:795] Read line 329: #exec --no-startup-id fcitx -r
+00:00:00.086 [sway/config.c:795] Read line 330: 
+00:00:00.086 [sway/config.c:795] Read line 331: # 
+00:00:00.086 [sway/config.c:795] Read line 332: # gnome keyring daemon
+00:00:00.086 [sway/config.c:795] Read line 333: #
+00:00:00.086 [sway/config.c:795] Read line 334: #exec /usr/bin/gnome-keyring-daemon --daemonize --login
+00:00:00.086 [sway/config.c:795] Read line 335: 
+00:00:00.086 [sway/config.c:795] Read line 336: # 
+00:00:00.086 [sway/config.c:795] Read line 337: # others
+00:00:00.086 [sway/config.c:795] Read line 338: #
+00:00:00.086 [sway/config.c:795] Read line 339: include /etc/sway/config.d/*
+00:00:00.086 [sway/commands.c:372] Config command: include /etc/sway/config.d/*
+00:00:00.086 [sway/commands.c:392] After replacement: include /etc/sway/config.d/*
+00:00:00.091 [sway/config.c:577] /etc/sway/config.d/* not found.
+00:00:00.091 [sway/config.c:795] Read line 340: 
+00:00:00.091 [sway/server.c:203] Starting backend on wayland display 'wayland-0'
+00:00:00.088 [backend/drm/drm.c:1292] Scanning DRM connectors
+00:00:00.089 [backend/drm/drm.c:1355] Found connector 'eDP-1'
+00:00:00.089 [backend/drm/drm.c:1391] 'eDP-1' connected
+00:00:00.090 [backend/drm/drm.c:1392] Current CRTC: 51
+00:00:00.090 [backend/drm/drm.c:1397] Physical size: 350x190
+00:00:00.090 [backend/drm/drm.c:1415] Detected modes:
+00:00:00.090 [backend/drm/drm.c:1437]   3840x2160@59997 (preferred)
+00:00:00.100 [backend/drm/drm.c:1355] Found connector 'DP-1'
+00:00:00.107 [backend/drm/drm.c:1355] Found connector 'HDMI-A-1'
+00:00:00.107 [backend/drm/drm.c:1355] Found connector 'DP-2'
+00:00:00.111 [backend/drm/drm.c:1355] Found connector 'HDMI-A-2'
+00:00:00.111 [backend/drm/drm.c:1355] Found connector 'DP-3'
+00:00:00.111 [backend/drm/drm.c:1355] Found connector 'DP-4'
+00:00:00.111 [backend/drm/drm.c:1391] 'DP-4' connected
+00:00:00.111 [backend/drm/drm.c:1392] Current CRTC: 72
+00:00:00.111 [backend/drm/drm.c:1397] Physical size: 600x340
+00:00:00.111 [backend/drm/drm.c:1415] Detected modes:
+00:00:00.111 [backend/drm/drm.c:1437]   2560x1440@59951 (preferred)
+00:00:00.111 [backend/drm/drm.c:1437]   2048x1080@59998 
+00:00:00.111 [backend/drm/drm.c:1437]   2048x1080@23997 
+00:00:00.111 [backend/drm/drm.c:1437]   1920x1080@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   1920x1080@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   1920x1080@59940 
+00:00:00.111 [backend/drm/drm.c:1437]   1920x1080@50000 
+00:00:00.111 [backend/drm/drm.c:1437]   1600x1200@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   1280x1024@75025 
+00:00:00.111 [backend/drm/drm.c:1437]   1280x1024@60020 
+00:00:00.111 [backend/drm/drm.c:1437]   1152x864@75000 
+00:00:00.111 [backend/drm/drm.c:1437]   1280x720@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   1280x720@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   1280x720@59940 
+00:00:00.111 [backend/drm/drm.c:1437]   1280x720@50000 
+00:00:00.111 [backend/drm/drm.c:1437]   1024x768@75029 
+00:00:00.111 [backend/drm/drm.c:1437]   1024x768@60004 
+00:00:00.111 [backend/drm/drm.c:1437]   800x600@75000 
+00:00:00.111 [backend/drm/drm.c:1437]   800x600@60317 
+00:00:00.111 [backend/drm/drm.c:1437]   720x576@50000 
+00:00:00.111 [backend/drm/drm.c:1437]   720x576@50000 
+00:00:00.111 [backend/drm/drm.c:1437]   720x480@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   720x480@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   720x480@59940 
+00:00:00.111 [backend/drm/drm.c:1437]   720x480@59940 
+00:00:00.111 [backend/drm/drm.c:1437]   640x480@75000 
+00:00:00.111 [backend/drm/drm.c:1437]   640x480@60000 
+00:00:00.111 [backend/drm/drm.c:1437]   640x480@59940 
+00:00:00.111 [backend/drm/drm.c:1437]   640x480@59940 
+00:00:00.111 [backend/drm/drm.c:1437]   720x400@70082 
+00:00:00.111 [backend/drm/drm.c:1355] Found connector 'DP-5'
+00:00:00.111 [backend/drm/drm.c:1124] Reallocating CRTCs
+00:00:00.111 [backend/drm/drm.c:1135] State before reallocation:
+00:00:00.111 [backend/drm/drm.c:1141]   'eDP-1' crtc=0 state=1 desired_enabled=1
+00:00:00.111 [backend/drm/drm.c:1141]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1141]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1141]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1141]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1141]   'DP-3' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1141]   'DP-4' crtc=1 state=1 desired_enabled=1
+00:00:00.111 [backend/drm/drm.c:1141]   'DP-5' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1193] State after reallocation:
+00:00:00.111 [backend/drm/drm.c:1200]   'eDP-1' crtc=0 state=1 desired_enabled=1
+00:00:00.111 [backend/drm/drm.c:1200]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1200]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1200]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1200]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1200]   'DP-3' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1200]   'DP-4' crtc=1 state=1 desired_enabled=1
+00:00:00.111 [backend/drm/drm.c:1200]   'DP-5' crtc=-1 state=0 desired_enabled=0
+00:00:00.111 [backend/drm/drm.c:1503] Requesting modeset for 'eDP-1'
+00:00:00.114 [sway/desktop/output.c:868] New output 0x560c028a0e70: eDP-1
+00:00:00.114 [sway/config/output.c:356] Turning on output eDP-1
+00:00:00.114 [sway/config/output.c:360] Set eDP-1 mode to 3840x2160 (-1.000000 Hz)
+00:00:00.114 [sway/config/output.c:266] Assigning configured mode to eDP-1
+00:00:00.114 [sway/config/output.c:393] Set eDP-1 scale to 2.000000
+00:00:00.114 [sway/config/output.c:401] Committing output eDP-1
+00:00:00.111 [backend/drm/drm.c:755] Modesetting 'eDP-1' with '3840x2160@59997 mHz'
+00:00:00.111 [backend/drm/drm.c:633] Initializing renderer on connector 'eDP-1'
+00:00:00.112 [GLES2] FS SIMD8 shader: 5 inst, 0 loops, 24 cycles, 0:0 spills:fills, 1 sends, scheduled with mode top-down, Promoted 0 constants, compacted 80 to 48 bytes.
+00:00:00.112 [GLES2] FS SIMD16 shader: 5 inst, 0 loops, 34 cycles, 0:0 spills:fills, 1 sends, scheduled with mode top-down, Promoted 0 constants, compacted 80 to 48 bytes.
+00:00:00.113 [GLES2] VS SIMD8 shader: 28 inst, 0 loops, 116 cycles, 0:0 spills:fills, 2 sends, scheduled with mode top-down, Promoted 0 constants, compacted 448 to 336 bytes.
+00:00:00.113 [GLES2] FS SIMD16 shader: 2 inst, 0 loops, 0 cycles, 0:0 spills:fills, 1 sends, scheduled with mode top-down, Promoted 0 constants, compacted 32 to 32 bytes.
+00:00:00.146 [sway/config/output.c:433] Set eDP-1 position to 0, 0
+00:00:00.146 [sway/tree/workspace.c:283] Workspace: Generating new workspace name for output eDP-1
+00:00:00.146 [sway/tree/workspace.c:218] Got valid workspace command for target: '1'
+00:00:00.146 [sway/tree/workspace.c:274] Workspace: Found free name 1
+00:00:00.146 [sway/tree/workspace.c:218] Got valid workspace command for target: '2'
+00:00:00.146 [sway/tree/workspace.c:218] Got valid workspace command for target: '3'
+00:00:00.146 [sway/tree/workspace.c:218] Got valid workspace command for target: '4'
+00:00:00.146 [sway/tree/workspace.c:218] Got valid workspace command for target: '5'
+00:00:00.147 [sway/tree/workspace.c:218] Got valid workspace command for target: '6'
+00:00:00.147 [sway/tree/workspace.c:218] Got valid workspace command for target: '7'
+00:00:00.147 [sway/tree/workspace.c:218] Got valid workspace command for target: '8'
+00:00:00.147 [sway/tree/workspace.c:218] Got valid workspace command for target: '9'
+00:00:00.147 [sway/tree/workspace.c:218] Got valid workspace command for target: '10'
+00:00:00.147 [sway/tree/output.c:127] Creating default workspace 1
+00:00:00.147 [sway/tree/workspace.c:63] Adding workspace 1 for output eDP-1
+00:00:00.252 [xcursor/wlr_xcursor.c:243] Loaded cursor theme 'default', available cursors:
+00:00:00.252 [xcursor/wlr_xcursor.c:248] diamond_cross (1 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] left_ptr_watch (60 images) 48x48+7,5
+00:00:00.252 [xcursor/wlr_xcursor.c:248] ll_angle (1 images) 48x48+7,37
+00:00:00.252 [xcursor/wlr_xcursor.c:248] v_double_arrow (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] cross_reverse (1 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] nesw-resize (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] right_ptr (1 images) 48x48+41,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] sb_h_double_arrow (1 images) 48x48+24,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] grab (1 images) 48x48+21,13
+00:00:00.252 [xcursor/wlr_xcursor.c:248] top_tee (1 images) 48x48+24,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dnd-no-drop (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] pointer (1 images) 48x48+15,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dot_box_mask (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] not-allowed (1 images) 48x48+24,24
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 9081237383d90e509aa00f00170e968f (1 images) 48x48+24,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dnd-copy (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] draped_box (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dnd-none (1 images) 48x48+23,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] hand1 (1 images) 48x48+21,13
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 4498f0e0c1937ffe01fd06f973665830 (1 images) 48x48+24,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] zoom-out (1 images) 48x48+22,19
+00:00:00.252 [xcursor/wlr_xcursor.c:248] crosshair (1 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] hand (1 images) 48x48+15,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] move (1 images) 48x48+24,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dotbox (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] ns-resize (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] top_right_corner (1 images) 48x48+29,19
+00:00:00.252 [xcursor/wlr_xcursor.c:248] cross (1 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] right_tee (1 images) 48x48+39,24
+00:00:00.252 [xcursor/wlr_xcursor.c:248] link (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] bottom_tee (1 images) 48x48+24,38
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 08e8e1c95fe2fc01f976f1e063a24ccd (60 images) 48x48+7,5
+00:00:00.252 [xcursor/wlr_xcursor.c:248] plus (1 images) 48x48+20,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] e29285e634086352946a0e7090d73106 (1 images) 48x48+15,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] default (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] e-resize (1 images) 48x48+37,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] ul_angle (1 images) 48x48+7,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] left_ptr_help (1 images) 48x48+23,41
+00:00:00.252 [xcursor/wlr_xcursor.c:248] top_left_corner (1 images) 48x48+19,19
+00:00:00.252 [xcursor/wlr_xcursor.c:248] fd_double_arrow (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] right_side (1 images) 48x48+37,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] bottom_left_corner (1 images) 48x48+19,29
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 00008160000006810000408080010102 (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] xterm (1 images) 48x48+21,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] pirate (1 images) 48x48+23,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] double_arrow (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] s-resize (1 images) 48x48+25,35
+00:00:00.252 [xcursor/wlr_xcursor.c:248] X_cursor (1 images) 48x48+23,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] left_side (1 images) 48x48+11,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] size_bdiag (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] sw-resize (1 images) 48x48+19,29
+00:00:00.252 [xcursor/wlr_xcursor.c:248] left_ptr (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] context-menu (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] zoom-in (1 images) 48x48+22,19
+00:00:00.252 [xcursor/wlr_xcursor.c:248] left_tee (1 images) 48x48+11,24
+00:00:00.252 [xcursor/wlr_xcursor.c:248] h_double_arrow (1 images) 48x48+24,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] d9ce0ab605698f320427677b458ad60b (1 images) 48x48+23,41
+00:00:00.252 [xcursor/wlr_xcursor.c:248] nw-resize (1 images) 48x48+19,19
+00:00:00.252 [xcursor/wlr_xcursor.c:248] arrow (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] size_all (1 images) 48x48+23,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] fleur (1 images) 48x48+23,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] top_left_arrow (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 3085a0e285430894940527032f8b26df (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] sb_v_double_arrow (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] cell (1 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] lr_angle (1 images) 48x48+39,37
+00:00:00.252 [xcursor/wlr_xcursor.c:248] size_ver (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dnd-move (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] c7088f0f3e6c8088236ef8e1e3e70000 (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] size_hor (1 images) 48x48+24,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] circle (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 6407b0e94181790501fd1e167b474872 (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] n-resize (1 images) 48x48+25,11
+00:00:00.252 [xcursor/wlr_xcursor.c:248] icon (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] ne-resize (1 images) 48x48+29,19
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dnd-link (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] nwse-resize (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] col-resize (1 images) 48x48+24,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 03b6e0fcb3499374a867c041f52298f0 (1 images) 48x48+24,24
+00:00:00.252 [xcursor/wlr_xcursor.c:248] dnd-ask (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 5c6cd98b3f3ebcb1f9c7f1c204630408 (1 images) 48x48+23,41
+00:00:00.252 [xcursor/wlr_xcursor.c:248] vertical-text (1 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] w-resize (1 images) 48x48+11,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 9d800788f1b08800ae810202380a0822 (1 images) 48x48+15,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] fcf1c3c7cd4491d801f1e1c78f100000 (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] se-resize (1 images) 48x48+29,29
+00:00:00.252 [xcursor/wlr_xcursor.c:248] progress (60 images) 48x48+7,5
+00:00:00.252 [xcursor/wlr_xcursor.c:248] text (1 images) 48x48+21,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] watch (60 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 3ecb610c1bf2410f44200f48c40d3599 (60 images) 48x48+7,5
+00:00:00.252 [xcursor/wlr_xcursor.c:248] alias (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] sb_right_arrow (1 images) 48x48+37,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 1081e37283d90000800003c07f3ef6bf (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] top_side (1 images) 48x48+25,11
+00:00:00.252 [xcursor/wlr_xcursor.c:248] sb_down_arrow (1 images) 48x48+23,37
+00:00:00.252 [xcursor/wlr_xcursor.c:248] wait (60 images) 48x48+22,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] draft_small (1 images) 48x48+41,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] ew-resize (1 images) 48x48+24,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] sb_left_arrow (1 images) 48x48+11,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] row-resize (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] pointer-move (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] all-scroll (1 images) 48x48+23,22
+00:00:00.252 [xcursor/wlr_xcursor.c:248] question_arrow (1 images) 48x48+23,41
+00:00:00.252 [xcursor/wlr_xcursor.c:248] crossed_circle (1 images) 48x48+24,24
+00:00:00.252 [xcursor/wlr_xcursor.c:248] bottom_side (1 images) 48x48+25,35
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 640fb0e74195791501fd1ed57b41487f (1 images) 48x48+7,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] hand2 (1 images) 48x48+15,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 14fef782d02440884392942c11205230 (1 images) 48x48+24,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] draft_large (1 images) 48x48+41,7
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 2870a09082c103050810ffdffffe0204 (1 images) 48x48+23,25
+00:00:00.252 [xcursor/wlr_xcursor.c:248] size_fdiag (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] bd_double_arrow (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] pencil (1 images) 48x48+13,41
+00:00:00.252 [xcursor/wlr_xcursor.c:248] 028006030e0e7ebffc7f7070c0600140 (1 images) 48x48+24,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] target (1 images) 48x48+21,21
+00:00:00.252 [xcursor/wlr_xcursor.c:248] help (1 images) 48x48+23,41
+00:00:00.252 [xcursor/wlr_xcursor.c:248] tcross (1 images) 48x48+23,23
+00:00:00.252 [xcursor/wlr_xcursor.c:248] bottom_right_corner (1 images) 48x48+29,29
+00:00:00.252 [xcursor/wlr_xcursor.c:248] no-drop (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] copy (1 images) 48x48+17,17
+00:00:00.252 [xcursor/wlr_xcursor.c:248] sb_up_arrow (1 images) 48x48+23,5
+00:00:00.252 [xcursor/wlr_xcursor.c:248] ur_angle (1 images) 48x48+39,9
+00:00:00.252 [xcursor/wlr_xcursor.c:248] grabbing (1 images) 48x48+23,21
+00:00:00.255 [sway/desktop/layer_shell.c:178] Usable area changed, rearranging output
+00:00:00.255 [sway/tree/arrange.c:263] Usable area for ws: 1920x1080@0,0
+00:00:00.255 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 4.000000
+00:00:00.255 [sway/tree/arrange.c:263] Usable area for ws: 1920x1080@0,0
+00:00:00.255 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 4.000000
+00:00:00.255 [sway/desktop/transaction.c:411] Transaction 0x560c028c82e0 committing with 2 instructions
+00:00:00.255 [sway/desktop/transaction.c:280] Applying transaction 0x560c028c82e0
+00:00:00.252 [backend/drm/drm.c:1503] Requesting modeset for 'DP-4'
+00:00:00.255 [sway/desktop/output.c:868] New output 0x560c028a1c00: DP-4
+00:00:00.255 [sway/config/output.c:356] Turning on output DP-4
+00:00:00.255 [sway/config/output.c:326] Output DPI: 108.373333x107.576471
+00:00:00.255 [sway/config/output.c:390] Auto-detected output scale: 1.000000
+00:00:00.255 [sway/config/output.c:401] Committing output DP-4
+00:00:00.252 [backend/drm/drm.c:755] Modesetting 'DP-4' with '2560x1440@59951 mHz'
+00:00:00.252 [backend/drm/drm.c:633] Initializing renderer on connector 'DP-4'
+00:00:00.261 [sway/tree/arrange.c:263] Usable area for ws: 1920x1080@0,0
+00:00:00.261 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 4.000000
+00:00:00.261 [sway/desktop/transaction.c:411] Transaction 0x560c028c9660 committing with 1 instructions
+00:00:00.261 [sway/desktop/transaction.c:280] Applying transaction 0x560c028c9660
+00:00:00.261 [sway/tree/workspace.c:283] Workspace: Generating new workspace name for output DP-4
+00:00:00.261 [sway/tree/workspace.c:218] Got valid workspace command for target: '1'
+00:00:00.261 [sway/tree/workspace.c:218] Got valid workspace command for target: '2'
+00:00:00.261 [sway/tree/workspace.c:274] Workspace: Found free name 2
+00:00:00.261 [sway/tree/workspace.c:218] Got valid workspace command for target: '3'
+00:00:00.261 [sway/tree/workspace.c:218] Got valid workspace command for target: '4'
+00:00:00.262 [sway/tree/workspace.c:218] Got valid workspace command for target: '5'
+00:00:00.262 [sway/tree/workspace.c:218] Got valid workspace command for target: '6'
+00:00:00.262 [sway/tree/workspace.c:218] Got valid workspace command for target: '7'
+00:00:00.262 [sway/tree/workspace.c:218] Got valid workspace command for target: '8'
+00:00:00.262 [sway/tree/workspace.c:218] Got valid workspace command for target: '9'
+00:00:00.262 [sway/tree/workspace.c:218] Got valid workspace command for target: '10'
+00:00:00.262 [sway/tree/output.c:127] Creating default workspace 2
+00:00:00.262 [sway/tree/workspace.c:63] Adding workspace 2 for output DP-4
+00:00:00.273 [xcursor/wlr_xcursor.c:243] Loaded cursor theme 'default', available cursors:
+00:00:00.273 [xcursor/wlr_xcursor.c:248] diamond_cross (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] left_ptr_watch (60 images) 24x24+4,3
+00:00:00.273 [xcursor/wlr_xcursor.c:248] ll_angle (1 images) 24x24+4,19
+00:00:00.273 [xcursor/wlr_xcursor.c:248] v_double_arrow (1 images) 24x24+12,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] cross_reverse (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] nesw-resize (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] right_ptr (1 images) 24x24+21,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] sb_h_double_arrow (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] grab (1 images) 24x24+11,7
+00:00:00.273 [xcursor/wlr_xcursor.c:248] top_tee (1 images) 24x24+12,5
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dnd-no-drop (1 images) 24x24+9,9
+00:00:00.273 [xcursor/wlr_xcursor.c:248] pointer (1 images) 24x24+8,5
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dot_box_mask (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] not-allowed (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 9081237383d90e509aa00f00170e968f (1 images) 24x24+12,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dnd-copy (1 images) 24x24+9,9
+00:00:00.273 [xcursor/wlr_xcursor.c:248] draped_box (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dnd-none (1 images) 24x24+12,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] hand1 (1 images) 24x24+11,7
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 4498f0e0c1937ffe01fd06f973665830 (1 images) 24x24+12,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] zoom-out (1 images) 24x24+11,10
+00:00:00.273 [xcursor/wlr_xcursor.c:248] crosshair (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] hand (1 images) 24x24+8,5
+00:00:00.273 [xcursor/wlr_xcursor.c:248] move (1 images) 24x24+12,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dotbox (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] ns-resize (1 images) 24x24+12,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] top_right_corner (1 images) 24x24+15,10
+00:00:00.273 [xcursor/wlr_xcursor.c:248] cross (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] right_tee (1 images) 24x24+20,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] link (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] bottom_tee (1 images) 24x24+12,19
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 08e8e1c95fe2fc01f976f1e063a24ccd (60 images) 24x24+4,3
+00:00:00.273 [xcursor/wlr_xcursor.c:248] plus (1 images) 24x24+10,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] e29285e634086352946a0e7090d73106 (1 images) 24x24+8,5
+00:00:00.273 [xcursor/wlr_xcursor.c:248] default (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] e-resize (1 images) 24x24+19,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] ul_angle (1 images) 24x24+4,5
+00:00:00.273 [xcursor/wlr_xcursor.c:248] left_ptr_help (1 images) 24x24+12,21
+00:00:00.273 [xcursor/wlr_xcursor.c:248] top_left_corner (1 images) 24x24+10,10
+00:00:00.273 [xcursor/wlr_xcursor.c:248] fd_double_arrow (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] right_side (1 images) 24x24+19,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] bottom_left_corner (1 images) 24x24+10,15
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 00008160000006810000408080010102 (1 images) 24x24+12,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] xterm (1 images) 24x24+11,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] pirate (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] double_arrow (1 images) 24x24+12,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] s-resize (1 images) 24x24+13,18
+00:00:00.273 [xcursor/wlr_xcursor.c:248] X_cursor (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] left_side (1 images) 24x24+6,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] size_bdiag (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] sw-resize (1 images) 24x24+10,15
+00:00:00.273 [xcursor/wlr_xcursor.c:248] left_ptr (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] context-menu (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] zoom-in (1 images) 24x24+11,10
+00:00:00.273 [xcursor/wlr_xcursor.c:248] left_tee (1 images) 24x24+6,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] h_double_arrow (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] d9ce0ab605698f320427677b458ad60b (1 images) 24x24+12,21
+00:00:00.273 [xcursor/wlr_xcursor.c:248] nw-resize (1 images) 24x24+10,10
+00:00:00.273 [xcursor/wlr_xcursor.c:248] arrow (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] size_all (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] fleur (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] top_left_arrow (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 3085a0e285430894940527032f8b26df (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] sb_v_double_arrow (1 images) 24x24+12,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] cell (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] lr_angle (1 images) 24x24+20,19
+00:00:00.273 [xcursor/wlr_xcursor.c:248] size_ver (1 images) 24x24+12,13
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dnd-move (1 images) 24x24+9,9
+00:00:00.273 [xcursor/wlr_xcursor.c:248] c7088f0f3e6c8088236ef8e1e3e70000 (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] size_hor (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] circle (1 images) 24x24+4,4
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 6407b0e94181790501fd1e167b474872 (1 images) 24x24+9,9
+00:00:00.273 [xcursor/wlr_xcursor.c:248] n-resize (1 images) 24x24+13,6
+00:00:00.273 [xcursor/wlr_xcursor.c:248] icon (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] ne-resize (1 images) 24x24+15,10
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dnd-link (1 images) 24x24+9,9
+00:00:00.273 [xcursor/wlr_xcursor.c:248] nwse-resize (1 images) 24x24+11,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] col-resize (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 03b6e0fcb3499374a867c041f52298f0 (1 images) 24x24+12,12
+00:00:00.273 [xcursor/wlr_xcursor.c:248] dnd-ask (1 images) 24x24+9,9
+00:00:00.273 [xcursor/wlr_xcursor.c:248] 5c6cd98b3f3ebcb1f9c7f1c204630408 (1 images) 24x24+12,21
+00:00:00.273 [xcursor/wlr_xcursor.c:248] vertical-text (1 images) 24x24+12,11
+00:00:00.273 [xcursor/wlr_xcursor.c:248] w-resize (1 images) 24x24+6,13
+00:00:00.274 [xcursor/wlr_xcursor.c:248] 9d800788f1b08800ae810202380a0822 (1 images) 24x24+8,5
+00:00:00.274 [xcursor/wlr_xcursor.c:248] fcf1c3c7cd4491d801f1e1c78f100000 (1 images) 24x24+11,11
+00:00:00.274 [xcursor/wlr_xcursor.c:248] se-resize (1 images) 24x24+15,15
+00:00:00.274 [xcursor/wlr_xcursor.c:248] progress (60 images) 24x24+4,3
+00:00:00.274 [xcursor/wlr_xcursor.c:248] text (1 images) 24x24+11,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] watch (60 images) 24x24+11,11
+00:00:00.274 [xcursor/wlr_xcursor.c:248] 3ecb610c1bf2410f44200f48c40d3599 (60 images) 24x24+4,3
+00:00:00.274 [xcursor/wlr_xcursor.c:248] alias (1 images) 24x24+9,9
+00:00:00.274 [xcursor/wlr_xcursor.c:248] sb_right_arrow (1 images) 24x24+19,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] 1081e37283d90000800003c07f3ef6bf (1 images) 24x24+9,9
+00:00:00.274 [xcursor/wlr_xcursor.c:248] top_side (1 images) 24x24+13,6
+00:00:00.274 [xcursor/wlr_xcursor.c:248] sb_down_arrow (1 images) 24x24+12,19
+00:00:00.274 [xcursor/wlr_xcursor.c:248] wait (60 images) 24x24+11,11
+00:00:00.274 [xcursor/wlr_xcursor.c:248] draft_small (1 images) 24x24+21,4
+00:00:00.274 [xcursor/wlr_xcursor.c:248] ew-resize (1 images) 24x24+12,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] sb_left_arrow (1 images) 24x24+6,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] row-resize (1 images) 24x24+12,13
+00:00:00.274 [xcursor/wlr_xcursor.c:248] pointer-move (1 images) 24x24+4,4
+00:00:00.274 [xcursor/wlr_xcursor.c:248] all-scroll (1 images) 24x24+11,11
+00:00:00.274 [xcursor/wlr_xcursor.c:248] question_arrow (1 images) 24x24+12,21
+00:00:00.274 [xcursor/wlr_xcursor.c:248] crossed_circle (1 images) 24x24+12,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] bottom_side (1 images) 24x24+13,18
+00:00:00.274 [xcursor/wlr_xcursor.c:248] 640fb0e74195791501fd1ed57b41487f (1 images) 24x24+4,4
+00:00:00.274 [xcursor/wlr_xcursor.c:248] hand2 (1 images) 24x24+8,5
+00:00:00.274 [xcursor/wlr_xcursor.c:248] 14fef782d02440884392942c11205230 (1 images) 24x24+12,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] draft_large (1 images) 24x24+21,4
+00:00:00.274 [xcursor/wlr_xcursor.c:248] 2870a09082c103050810ffdffffe0204 (1 images) 24x24+12,13
+00:00:00.274 [xcursor/wlr_xcursor.c:248] size_fdiag (1 images) 24x24+11,11
+00:00:00.274 [xcursor/wlr_xcursor.c:248] bd_double_arrow (1 images) 24x24+11,11
+00:00:00.274 [xcursor/wlr_xcursor.c:248] pencil (1 images) 24x24+7,21
+00:00:00.274 [xcursor/wlr_xcursor.c:248] 028006030e0e7ebffc7f7070c0600140 (1 images) 24x24+12,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] target (1 images) 24x24+11,11
+00:00:00.274 [xcursor/wlr_xcursor.c:248] help (1 images) 24x24+12,21
+00:00:00.274 [xcursor/wlr_xcursor.c:248] tcross (1 images) 24x24+12,12
+00:00:00.274 [xcursor/wlr_xcursor.c:248] bottom_right_corner (1 images) 24x24+15,15
+00:00:00.274 [xcursor/wlr_xcursor.c:248] no-drop (1 images) 24x24+9,9
+00:00:00.274 [xcursor/wlr_xcursor.c:248] copy (1 images) 24x24+9,9
+00:00:00.274 [xcursor/wlr_xcursor.c:248] sb_up_arrow (1 images) 24x24+12,3
+00:00:00.274 [xcursor/wlr_xcursor.c:248] ur_angle (1 images) 24x24+20,5
+00:00:00.274 [xcursor/wlr_xcursor.c:248] grabbing (1 images) 24x24+12,11
+00:00:00.277 [sway/desktop/layer_shell.c:178] Usable area changed, rearranging output
+00:00:00.277 [sway/tree/arrange.c:263] Usable area for ws: 2560x1440@0,0
+00:00:00.277 [sway/tree/arrange.c:293] Arranging workspace '2' at 1924.000000, 4.000000
+00:00:00.277 [sway/tree/arrange.c:263] Usable area for ws: 1920x1080@0,0
+00:00:00.277 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 4.000000
+00:00:00.277 [sway/tree/arrange.c:263] Usable area for ws: 2560x1440@0,0
+00:00:00.277 [sway/tree/arrange.c:293] Arranging workspace '2' at 1924.000000, 4.000000
+00:00:00.277 [sway/desktop/transaction.c:411] Transaction 0x560c02d84580 committing with 3 instructions
+00:00:00.277 [sway/desktop/transaction.c:280] Applying transaction 0x560c02d84580
+00:00:00.274 [backend/libinput/backend.c:55] Initializing libinput
+00:00:00.654 [backend/libinput/events.c:94] Added Power Button [0:1]
+00:00:00.657 [sway/input/input-manager.c:230] adding device: '0:1:Power_Button'
+00:00:00.657 [sway/input/input-manager.c:180] no fallback seat config - creating default
+00:00:00.657 [sway/config/seat.c:65] Adding non-wildcard seat config
+00:00:00.657 [sway/config/seat.c:82] Config stored for seat seat0
+00:00:00.657 [sway/input/input-manager.c:544] applying seat config for seat seat0
+00:00:00.657 [sway/input/seat.c:817] adding device 0:1:Power_Button to seat seat0
+00:00:00.661 [sway/input/keyboard.c:802] Created keyboard group 0x560c02da4ba0
+00:00:00.661 [sway/input/keyboard.c:825] Adding keyboard 0:1:Power_Button to group 0x560c02da4ba0
+00:00:00.670 [sway/input/keyboard.c:699] Removing keyboard 0:1:Power_Button from group 0x560c02da4ba0
+00:00:00.670 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c02da4ba0
+00:00:00.672 [sway/input/keyboard.c:802] Created keyboard group 0x560c02f79300
+00:00:00.672 [sway/input/keyboard.c:825] Adding keyboard 0:1:Power_Button to group 0x560c02f79300
+00:00:00.671 [backend/libinput/events.c:94] Added Video Bus [0:6]
+00:00:00.674 [sway/input/input-manager.c:230] adding device: '0:6:Video_Bus'
+00:00:00.674 [sway/input/seat.c:817] adding device 0:6:Video_Bus to seat seat0
+00:00:00.681 [sway/input/keyboard.c:802] Created keyboard group 0x560c02fa6140
+00:00:00.682 [sway/input/keyboard.c:825] Adding keyboard 0:6:Video_Bus to group 0x560c02fa6140
+00:00:00.680 [backend/libinput/events.c:94] Added Video Bus [0:6]
+00:00:00.684 [sway/input/input-manager.c:230] adding device: '0:6:Video_Bus'
+00:00:00.684 [sway/input/seat.c:817] adding device 0:6:Video_Bus to seat seat0
+00:00:00.692 [sway/input/keyboard.c:802] Created keyboard group 0x560c02fd0460
+00:00:00.692 [sway/input/keyboard.c:825] Adding keyboard 0:6:Video_Bus to group 0x560c02fd0460
+00:00:00.691 [backend/libinput/events.c:94] Added Power Button [0:1]
+00:00:00.694 [sway/input/input-manager.c:230] adding device: '0:1:Power_Button'
+00:00:00.694 [sway/input/seat.c:817] adding device 0:1:Power_Button to seat seat0
+00:00:00.702 [sway/input/keyboard.c:802] Created keyboard group 0x560c030109e0
+00:00:00.702 [sway/input/keyboard.c:825] Adding keyboard 0:1:Power_Button to group 0x560c030109e0
+00:00:00.700 [backend/libinput/events.c:94] Added Lid Switch [0:5]
+00:00:00.700 [backend/libinput/switch.c:20] Created switch for device Lid Switch
+00:00:00.703 [sway/input/input-manager.c:230] adding device: '0:5:Lid_Switch'
+00:00:00.703 [sway/input/seat.c:817] adding device 0:5:Lid_Switch to seat seat0
+00:00:00.703 [sway/input/switch.c:18] Allocated switch for device
+00:00:00.703 [sway/input/switch.c:95] Configured switch for device
+00:00:00.703 [sway/input/switch.c:79] 0:5:Lid_Switch: type 1 state 1
+00:00:00.703 [sway/commands/bind.c:601] deferring command for binding: output eDP-1 disable
+00:00:00.700 [backend/libinput/events.c:94] Added Sleep Button [0:3]
+00:00:00.703 [sway/input/input-manager.c:230] adding device: '0:3:Sleep_Button'
+00:00:00.703 [sway/input/seat.c:817] adding device 0:3:Sleep_Button to seat seat0
+00:00:00.711 [sway/input/keyboard.c:802] Created keyboard group 0x560c03051c00
+00:00:00.711 [sway/input/keyboard.c:825] Adding keyboard 0:3:Sleep_Button to group 0x560c03051c00
+00:00:00.709 [backend/libinput/events.c:94] Added Integrated_Webcam_HD: Integrate [3141:26387]
+00:00:00.712 [sway/input/input-manager.c:230] adding device: '3141:26387:Integrated_Webcam_HD:_Integrate'
+00:00:00.712 [sway/input/seat.c:817] adding device 3141:26387:Integrated_Webcam_HD:_Integrate to seat seat0
+00:00:00.720 [sway/input/keyboard.c:802] Created keyboard group 0x560c0308b2e0
+00:00:00.720 [sway/input/keyboard.c:825] Adding keyboard 3141:26387:Integrated_Webcam_HD:_Integrate to group 0x560c0308b2e0
+00:00:00.719 [backend/libinput/events.c:94] Added ELAN Touchscreen [1267:9376]
+00:00:00.722 [sway/input/input-manager.c:230] adding device: '1267:9376:ELAN_Touchscreen'
+00:00:00.722 [sway/input/seat.c:817] adding device 1267:9376:ELAN_Touchscreen to seat seat0
+00:00:00.719 [backend/libinput/events.c:94] Added DLL07BF:01 06CB:7A13 Mouse [1739:31251]
+00:00:00.722 [sway/input/input-manager.c:230] adding device: '1739:31251:DLL07BF:01_06CB:7A13_Mouse'
+00:00:00.722 [sway/input/seat.c:817] adding device 1739:31251:DLL07BF:01_06CB:7A13_Mouse to seat seat0
+00:00:00.719 [GLES2] FS SIMD8 shader: 14 inst, 0 loops, 308 cycles, 0:0 spills:fills, 2 sends, scheduled with mode top-down, Promoted 0 constants, compacted 224 to 176 bytes.
+00:00:00.719 [GLES2] FS SIMD16 shader: 14 inst, 0 loops, 322 cycles, 0:0 spills:fills, 2 sends, scheduled with mode top-down, Promoted 0 constants, compacted 224 to 176 bytes.
+00:00:00.720 [GLES2] FS SIMD8 shader: 5 inst, 0 loops, 24 cycles, 0:0 spills:fills, 1 sends, scheduled with mode top-down, Promoted 0 constants, compacted 80 to 64 bytes.
+00:00:00.720 [GLES2] FS SIMD16 shader: 5 inst, 0 loops, 34 cycles, 0:0 spills:fills, 1 sends, scheduled with mode top-down, Promoted 0 constants, compacted 80 to 64 bytes.
+00:00:00.725 [backend/libinput/events.c:94] Added DLL07BF:01 06CB:7A13 Touchpad [1739:31251]
+00:00:00.728 [sway/input/input-manager.c:230] adding device: '1739:31251:DLL07BF:01_06CB:7A13_Touchpad'
+00:00:00.728 [sway/input/libinput.c:190] config_libinput_pointer('1739:31251:DLL07BF:01_06CB:7A13_Touchpad' on  '1739:31251:DLL07BF:01_06CB:7A13_Touchpad')
+00:00:00.728 [sway/input/libinput.c:32] tap_set_enabled(1)
+00:00:00.728 [sway/input/libinput.c:96] scroll_set_natural_scroll(1)
+00:00:00.728 [sway/input/libinput.c:129] middle_emulation_set_enabled(1)
+00:00:00.728 [sway/input/seat.c:817] adding device 1739:31251:DLL07BF:01_06CB:7A13_Touchpad to seat seat0
+00:00:00.728 [sway/input/seat.c:623] Applying input config to 1739:31251:DLL07BF:01_06CB:7A13_Touchpad
+00:00:00.725 [backend/libinput/events.c:94] Added Yubico Yubikey 4 OTP+U2F+CCID [4176:1031]
+00:00:00.728 [sway/input/input-manager.c:230] adding device: '4176:1031:Yubico_Yubikey_4_OTP+U2F+CCID'
+00:00:00.728 [sway/input/seat.c:817] adding device 4176:1031:Yubico_Yubikey_4_OTP+U2F+CCID to seat seat0
+00:00:00.738 [sway/input/keyboard.c:802] Created keyboard group 0x560c030cb5a0
+00:00:00.738 [sway/input/keyboard.c:825] Adding keyboard 4176:1031:Yubico_Yubikey_4_OTP+U2F+CCID to group 0x560c030cb5a0
+00:00:00.736 [backend/libinput/events.c:94] Added Logitech USB Optical Mouse [1133:49176]
+00:00:00.739 [sway/input/input-manager.c:230] adding device: '1133:49176:Logitech_USB_Optical_Mouse'
+00:00:00.739 [sway/input/seat.c:817] adding device 1133:49176:Logitech_USB_Optical_Mouse to seat seat0
+00:00:00.736 [backend/libinput/events.c:94] Added Dell Dell USB Keyboard Hub [16700:8194]
+00:00:00.739 [sway/input/input-manager.c:230] adding device: '16700:8194:Dell_Dell_USB_Keyboard_Hub'
+00:00:00.739 [sway/input/seat.c:817] adding device 16700:8194:Dell_Dell_USB_Keyboard_Hub to seat seat0
+00:00:00.750 [sway/input/keyboard.c:802] Created keyboard group 0x560c03104d00
+00:00:00.750 [sway/input/keyboard.c:825] Adding keyboard 16700:8194:Dell_Dell_USB_Keyboard_Hub to group 0x560c03104d00
+00:00:00.748 [backend/libinput/events.c:94] Added Dell Dell USB Keyboard Hub Consumer Control [16700:8194]
+00:00:00.751 [sway/input/input-manager.c:230] adding device: '16700:8194:Dell_Dell_USB_Keyboard_Hub_Consumer_Control'
+00:00:00.751 [sway/input/seat.c:817] adding device 16700:8194:Dell_Dell_USB_Keyboard_Hub_Consumer_Control to seat seat0
+00:00:00.763 [sway/input/keyboard.c:802] Created keyboard group 0x560c0313e460
+00:00:00.763 [sway/input/keyboard.c:825] Adding keyboard 16700:8194:Dell_Dell_USB_Keyboard_Hub_Consumer_Control to group 0x560c0313e460
+00:00:00.761 [backend/libinput/events.c:94] Added Dell Dell USB Keyboard Hub System Control [16700:8194]
+00:00:00.764 [sway/input/input-manager.c:230] adding device: '16700:8194:Dell_Dell_USB_Keyboard_Hub_System_Control'
+00:00:00.764 [sway/input/seat.c:817] adding device 16700:8194:Dell_Dell_USB_Keyboard_Hub_System_Control to seat seat0
+00:00:00.777 [sway/input/keyboard.c:802] Created keyboard group 0x560c031773b0
+00:00:00.777 [sway/input/keyboard.c:825] Adding keyboard 16700:8194:Dell_Dell_USB_Keyboard_Hub_System_Control to group 0x560c031773b0
+00:00:00.775 [backend/libinput/events.c:94] Added HDA Intel PCH Headphone Mic [0:0]
+00:00:00.775 [backend/libinput/events.c:94] Added HDA Intel PCH HDMI/DP,pcm=3 [0:0]
+00:00:00.775 [backend/libinput/events.c:94] Added HDA Intel PCH HDMI/DP,pcm=7 [0:0]
+00:00:00.775 [backend/libinput/events.c:94] Added HDA Intel PCH HDMI/DP,pcm=8 [0:0]
+00:00:00.775 [backend/libinput/events.c:94] Added HDA Intel PCH HDMI/DP,pcm=9 [0:0]
+00:00:00.775 [backend/libinput/events.c:94] Added HDA Intel PCH HDMI/DP,pcm=10 [0:0]
+00:00:00.775 [backend/libinput/events.c:94] Added Intel HID events [0:0]
+00:00:00.778 [sway/input/input-manager.c:230] adding device: '0:0:Intel_HID_events'
+00:00:00.778 [sway/input/seat.c:817] adding device 0:0:Intel_HID_events to seat seat0
+00:00:00.792 [sway/input/keyboard.c:802] Created keyboard group 0x560c031b0920
+00:00:00.792 [sway/input/keyboard.c:825] Adding keyboard 0:0:Intel_HID_events to group 0x560c031b0920
+00:00:00.790 [backend/libinput/events.c:94] Added Intel HID 5 button array [0:0]
+00:00:00.793 [sway/input/input-manager.c:230] adding device: '0:0:Intel_HID_5_button_array'
+00:00:00.793 [sway/input/seat.c:817] adding device 0:0:Intel_HID_5_button_array to seat seat0
+00:00:00.808 [sway/input/keyboard.c:802] Created keyboard group 0x560c031ea140
+00:00:00.808 [sway/input/keyboard.c:825] Adding keyboard 0:0:Intel_HID_5_button_array to group 0x560c031ea140
+00:00:00.806 [backend/libinput/events.c:94] Added Dell WMI hotkeys [0:0]
+00:00:00.809 [sway/input/input-manager.c:230] adding device: '0:0:Dell_WMI_hotkeys'
+00:00:00.809 [sway/input/seat.c:817] adding device 0:0:Dell_WMI_hotkeys to seat seat0
+00:00:00.826 [sway/input/keyboard.c:802] Created keyboard group 0x560c032239f0
+00:00:00.826 [sway/input/keyboard.c:825] Adding keyboard 0:0:Dell_WMI_hotkeys to group 0x560c032239f0
+00:00:00.824 [backend/libinput/events.c:94] Added AT Translated Set 2 keyboard [1:1]
+00:00:00.827 [sway/input/input-manager.c:230] adding device: '1:1:AT_Translated_Set_2_keyboard'
+00:00:00.827 [sway/input/seat.c:817] adding device 1:1:AT_Translated_Set_2_keyboard to seat seat0
+00:00:00.844 [sway/input/keyboard.c:802] Created keyboard group 0x560c0325cdb0
+00:00:00.844 [sway/input/keyboard.c:825] Adding keyboard 1:1:AT_Translated_Set_2_keyboard to group 0x560c0325cdb0
+00:00:00.842 [backend/libinput/events.c:94] Added PS/2 Synaptics TouchPad [2:1]
+00:00:00.845 [sway/input/input-manager.c:230] adding device: '2:1:PS/2_Synaptics_TouchPad'
+00:00:00.845 [sway/input/seat.c:817] adding device 2:1:PS/2_Synaptics_TouchPad to seat seat0
+00:00:00.842 [backend/libinput/backend.c:101] libinput successfully initialized
+00:00:00.845 [sway/config/bar.c:262] Invoking swaybar for bar id 'bar-0'
+00:00:00.847 [sway/config/bar.c:254] Spawned swaybar bar-0
+00:00:00.847 [sway/config.c:668] Running deferred bindings for seat seat0
+00:00:00.847 [sway/commands/bind.c:613] running command for binding: output eDP-1 disable
+00:00:00.847 [sway/commands.c:255] Handling command 'output eDP-1 disable'
+00:00:00.847 [sway/commands.c:423] Subcommand: disable
+00:00:00.847 [sway/config/output.c:204] Merging on top of existing output config
+00:00:00.847 [sway/config/output.c:227] Config stored for output eDP-1 (enabled: 0) (3840x2160@-1.000000Hz position 0,0 scale 2.000000 subpixel unknown transform -1) (bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill) (dpms 0) (max render time: -1)
+00:00:00.847 [sway/config/output.c:343] Disabling output eDP-1
+00:00:00.847 [sway/tree/output.c:254] Disabling output 'eDP-1'
+00:00:00.847 [sway/tree/workspace.c:143] Destroying workspace '1'
+00:00:00.847 [sway/tree/arrange.c:263] Usable area for ws: 2560x1440@0,0
+00:00:00.847 [sway/tree/arrange.c:293] Arranging workspace '2' at 1924.000000, 4.000000
+00:00:00.847 [sway/tree/arrange.c:263] Usable area for ws: 2560x1440@0,0
+00:00:00.847 [sway/tree/arrange.c:293] Arranging workspace '2' at 4.000000, 4.000000
+00:00:00.847 [sway/desktop/transaction.c:411] Transaction 0x560c0286d280 committing with 4 instructions
+00:00:00.847 [sway/desktop/transaction.c:280] Applying transaction 0x560c0286d280
+00:00:02.132 [backend/drm/drm.c:1124] Reallocating CRTCs
+00:00:02.132 [backend/drm/drm.c:1135] State before reallocation:
+00:00:02.132 [backend/drm/drm.c:1141]   'eDP-1' crtc=0 state=3 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1141]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1141]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1141]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1141]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1141]   'DP-3' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1141]   'DP-4' crtc=1 state=3 desired_enabled=1
+00:00:02.132 [backend/drm/drm.c:1141]   'DP-5' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1193] State after reallocation:
+00:00:02.132 [backend/drm/drm.c:1200]   'eDP-1' crtc=0 state=3 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1200]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1200]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1200]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1200]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1200]   'DP-3' crtc=-1 state=0 desired_enabled=0
+00:00:02.132 [backend/drm/drm.c:1200]   'DP-4' crtc=1 state=3 desired_enabled=1
+00:00:02.132 [backend/drm/drm.c:1200]   'DP-5' crtc=-1 state=0 desired_enabled=0
+00:00:02.135 [sway/server.c:214] Running compositor on wayland display 'wayland-0'
+2020-03-13 23:56:13 - [swaybg/main.c:299] Found config * for output DP-4 (Dell Inc. DELL U2717D 67YGV79F490L)
+00:00:02.145 [types/wlr_surface.c:615] New wlr_surface 0x560c02e455b0 (res 0x560c03221e50)
+00:00:02.145 [types/wlr_layer_shell_v1.c:433] new layer_surface 0x560c0324f520 (res 0x560c032240b0)
+00:00:02.148 [sway/desktop/layer_shell.c:502] new layer surface: namespace wallpaper layer 0 anchor 0 size 0x0 margin 0,0,0,0
+00:00:02.167 [types/wlr_surface.c:615] New wlr_surface 0x560c02e35000 (res 0x560c03223e70)
+00:00:02.167 [types/wlr_surface.c:615] New wlr_surface 0x560c028d0590 (res 0x560c032268a0)
+Unknown option -b
+
+** (waybar:1839): WARNING **: 23:56:13.855: (../waybar-git/subprojects/gtk-layer-shell-0.1.0/src/gtk-wayland.c:58):wl_registry_handle_global: runtime check failed: (xdg_wm_base_interface.version == 2)
+00:00:02.271 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:02.271 [sway/ipc-server.c:200] New client: fd 50
+00:00:02.271 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:02.271 [sway/ipc-server.c:200] New client: fd 53
+00:00:02.271 [sway/ipc-server.c:220] Client 53 readable
+00:00:02.271 [sway/ipc-server.c:951] Added IPC reply of type 0x2 to client 53 queue: {"success": true}
+00:00:02.271 [sway/ipc-server.c:537] Client 53 writable
+00:00:02.271 [sway/ipc-server.c:220] Client 50 readable
+00:00:02.271 [sway/ipc-server.c:951] Added IPC reply of type 0x1 to client 50 queue: [ { "id": 6, "name": "2", "rect": { "x": 4, "y": 4, "width": 2552, "height": 1432 }, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 2, "output": "DP-4", "type": "workspace", "representation": null, "focused": true, "visible": true } ]
+00:00:02.271 [sway/ipc-server.c:537] Client 50 writable
+00:00:02.271 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:02.271 [sway/ipc-server.c:200] New client: fd 55
+00:00:02.271 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:02.271 [sway/ipc-server.c:200] New client: fd 57
+00:00:02.271 [sway/ipc-server.c:220] Client 57 readable
+00:00:02.271 [sway/ipc-server.c:951] Added IPC reply of type 0x2 to client 57 queue: {"success": true}
+00:00:02.271 [sway/ipc-server.c:537] Client 57 writable
+00:00:02.272 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:02.272 [sway/ipc-server.c:200] New client: fd 59
+00:00:02.272 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:02.272 [sway/ipc-server.c:200] New client: fd 61
+00:00:02.272 [sway/ipc-server.c:220] Client 61 readable
+00:00:02.272 [sway/ipc-server.c:951] Added IPC reply of type 0x2 to client 61 queue: {"success": true}
+00:00:02.272 [sway/ipc-server.c:537] Client 61 writable
+00:00:02.272 [sway/ipc-server.c:220] Client 59 readable
+00:00:02.273 [sway/ipc-server.c:951] Added IPC reply of type 0x4 to client 59 queue: { "id": 1, "name": "root", "rect": { "x": 0, "y": 0, "width": 2560, "height": 1440 }, "focused": false, "focus": [ 5 ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 2147483647, "name": "__i3", "rect": { "x": 0, "y": 0, "width": 2560, "height": 1440 }, "focused": false, "focus": [ 2147483646 ], "border": "none", "current_border_width": 0, "layout": "output", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 2147483646, "name": "__i3_scratch", "rect": { "x": 0, "y": 0, "width": 2560, "height": 1440 }, "focused": false, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "type": "workspace" } ], "floating_nodes": [ ], "sticky": false, "type": "output" }, { "id": 5, "name": "DP-4", "rect": { "x": 0, "y": 0, "width": 2560, "height": 1440 }, "focused": false, "focus": [ 6 ], "border": "none", "current_border_width": 0, "layout": "output", "orientation": "none", "percent": 1.0, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 6, "name": "2", "rect": { "x": 4, "y": 4, "width": 2552, "height": 1432 }, "focused": true, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 2, "output": "DP-4", "type": "workspace", "representation": null } ], "floating_nodes": [ ], "sticky": false, "type": "output", "active": true, "dpms": true, "primary": false, "make": "Dell Inc.", "model": "DELL U2717D", "serial": "67YGV79F490L", "scale": 1.0, "scale_filter": "nearest", "transform": "normal", "adaptive_sync_status": "disabled", "current_workspace": "2", "modes": [ { "width": 720, "height": 400, "refresh": 70082 }, { "width": 640, "height": 480, "refresh": 59940 }, { "width": 640, "height": 480, "refresh": 59940 }, { "width": 640, "height": 480, "refresh": 60000 }, { "width": 640, "height": 480, "refresh": 75000 }, { "width": 720, "height": 480, "refresh": 59940 }, { "width": 720, "height": 480, "refresh": 59940 }, { "width": 720, "height": 480, "refresh": 60000 }, { "width": 720, "height": 480, "refresh": 60000 }, { "width": 720, "height": 576, "refresh": 50000 }, { "width": 720, "height": 576, "refresh": 50000 }, { "width": 800, "height": 600, "refresh": 60317 }, { "width": 800, "height": 600, "refresh": 75000 }, { "width": 1024, "height": 768, "refresh": 60004 }, { "width": 1024, "height": 768, "refresh": 75029 }, { "width": 1280, "height": 720, "refresh": 50000 }, { "width": 1280, "height": 720, "refresh": 59940 }, { "width": 1280, "height": 720, "refresh": 60000 }, { "width": 1280, "height": 720, "refresh": 60000 }, { "width": 1152, "height": 864, "refresh": 75000 }, { "width": 1280, "height": 1024, "refresh": 60020 }, { "width": 1280, "height": 1024, "refresh": 75025 }, { "width": 1600, "height": 1200, "refresh": 60000 }, { "width": 1920, "height": 1080, "refresh": 50000 }, { "width": 1920, "height": 1080, "refresh": 59940 }, { "width": 1920, "height": 1080, "refresh": 60000 }, { "width": 1920, "height": 1080, "refresh": 60000 }, { "width": 2048, "height": 1080, "refresh": 23997 }, { "width": 2048, "height": 1080, "refresh": 59998 }, { "width": 2560, "height": 1440, "refresh": 59951 } ], "current_mode": { "width": 2560, "height": 1440, "refresh": 59951 }, "max_render_time": 0 } ], "floating_nodes": [ ], "sticky": false, "type": "root" }
+00:00:02.273 [sway/ipc-server.c:537] Client 59 writable
+00:00:02.285 [types/wlr_surface.c:615] New wlr_surface 0x560c03261f70 (res 0x560c0325da10)
+00:00:02.285 [types/wlr_layer_shell_v1.c:433] new layer_surface 0x560c02e35450 (res 0x560c0325d8f0)
+00:00:02.288 [sway/desktop/layer_shell.c:502] new layer surface: namespace waybar layer 2 anchor 2 size 0x30 margin 0,0,0,0
+00:00:02.434 [sway/desktop/layer_shell.c:178] Usable area changed, rearranging output
+00:00:02.434 [sway/tree/arrange.c:263] Usable area for ws: 2560x1410@0,30
+00:00:02.434 [sway/tree/arrange.c:293] Arranging workspace '2' at 4.000000, 34.000000
+00:00:02.434 [sway/desktop/transaction.c:411] Transaction 0x560c03175950 committing with 1 instructions
+00:00:02.434 [sway/desktop/transaction.c:280] Applying transaction 0x560c03175950
+00:00:12.920 [backend/session/session.c:40] udev event for card0-DP-3 (remove)
+00:00:12.926 [backend/session/session.c:40] udev event for card0-DP-5 (remove)
+00:00:12.929 [backend/session/session.c:40] udev event for card0-DP-4 (remove)
+00:00:12.938 [backend/session/session.c:40] udev event for card0 (change)
+00:00:12.938 [backend/drm/backend.c:133] /dev/dri/card0 invalidated
+00:00:12.938 [backend/drm/drm.c:1292] Scanning DRM connectors
+00:00:13.168 [backend/drm/drm.c:1471] 'DP-4' disconnected
+00:00:13.168 [backend/drm/drm.c:1668] Emitting destruction signal for 'DP-4'
+00:00:13.169 [backend/drm/drm.c:1104] De-allocating CRTC 1 for output 'DP-4'
+00:00:13.770 [sway/tree/output.c:254] Disabling output 'DP-4'
+00:00:13.770 [sway/tree/workspace.c:143] Destroying workspace '2'
+00:00:13.770 [sway/ipc-server.c:308] Sending workspace::empty event
+00:00:13.771 [sway/ipc-server.c:951] Added IPC reply of type 0x80000000 to client 53 queue: { "change": "empty", "old": null, "current": { "id": 6, "name": "2", "rect": { "x": 4, "y": 34, "width": 2552, "height": 1402 }, "focused": true, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 2, "output": null, "type": "workspace", "representation": null } }
+00:00:13.771 [sway/ipc-server.c:951] Added IPC reply of type 0x80000000 to client 61 queue: { "change": "empty", "old": null, "current": { "id": 6, "name": "2", "rect": { "x": 4, "y": 34, "width": 2552, "height": 1402 }, "focused": true, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 2, "output": null, "type": "workspace", "representation": null } }
+00:00:13.771 [sway/desktop/transaction.c:411] Transaction 0x560c028bf400 committing with 2 instructions
+00:00:13.771 [sway/desktop/transaction.c:280] Applying transaction 0x560c028bf400
+00:00:13.771 [sway/tree/output.c:275] Destroying output 'DP-4'
+00:00:13.771 [sway/desktop/transaction.c:411] Transaction 0x560c028bf400 committing with 1 instructions
+00:00:13.771 [sway/desktop/transaction.c:280] Applying transaction 0x560c028bf400
+00:00:13.768 [backend/drm/drm.c:1492] 'DP-5' disappeared
+00:00:13.768 [backend/drm/drm.c:1492] 'DP-3' disappeared
+00:00:13.768 [backend/drm/drm.c:1124] Reallocating CRTCs
+00:00:13.768 [backend/drm/drm.c:1135] State before reallocation:
+00:00:13.768 [backend/drm/drm.c:1141]   'eDP-1' crtc=-1 state=3 desired_enabled=0
+00:00:13.768 [backend/drm/drm.c:1141]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.768 [backend/drm/drm.c:1141]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.768 [backend/drm/drm.c:1141]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.768 [backend/drm/drm.c:1141]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.768 [backend/drm/drm.c:1141]   'DP-4' crtc=-1 state=0 desired_enabled=1
+00:00:13.769 [backend/drm/drm.c:1193] State after reallocation:
+00:00:13.769 [backend/drm/drm.c:1200]   'eDP-1' crtc=-1 state=3 desired_enabled=0
+00:00:13.769 [backend/drm/drm.c:1200]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.769 [backend/drm/drm.c:1200]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.769 [backend/drm/drm.c:1200]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.769 [backend/drm/drm.c:1200]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.769 [backend/drm/drm.c:1200]   'DP-4' crtc=-1 state=0 desired_enabled=1
+2020-03-13 23:56:24 - 00:00:13.769 [backend/session/session.c:40] udev event for card0 (change)
+[swaybg/main.c:167] Destroying output DP-4 (Dell Inc. DELL U2717D 67YGV79F490L)
+00:00:13.769 [backend/drm/backend.c:133] /dev/dri/card0 invalidated
+00:00:13.769 [backend/drm/drm.c:1292] Scanning DRM connectors
+
+(waybar:1839): GLib-GIO-WARNING **: 23:56:24.651: Invalid id 2 passed to g_bus_unwatch_name()
+00:00:13.789 [backend/drm/drm.c:1124] Reallocating CRTCs
+00:00:13.789 [backend/drm/drm.c:1135] State before reallocation:
+00:00:13.789 [backend/drm/drm.c:1141]   'eDP-1' crtc=-1 state=3 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1141]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1141]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1141]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1141]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1141]   'DP-4' crtc=-1 state=0 desired_enabled=1
+00:00:13.789 [backend/drm/drm.c:1193] State after reallocation:
+00:00:13.789 [backend/drm/drm.c:1200]   'eDP-1' crtc=-1 state=3 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1200]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1200]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1200]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1200]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:13.789 [backend/drm/drm.c:1200]   'DP-4' crtc=-1 state=0 desired_enabled=1
+00:00:13.791 [backend/session/logind.c:119] Failed to release device '33': Device not taken
+00:00:13.813 [backend/libinput/events.c:208] Removing Yubico Yubikey 4 OTP+U2F+CCID [4176:1031]
+00:00:13.817 [sway/input/input-manager.c:198] removing device: '4176:1031:Yubico_Yubikey_4_OTP+U2F+CCID'
+00:00:13.817 [sway/input/seat.c:837] removing device 4176:1031:Yubico_Yubikey_4_OTP+U2F+CCID from seat seat0
+00:00:13.817 [sway/input/keyboard.c:699] Removing keyboard 4176:1031:Yubico_Yubikey_4_OTP+U2F+CCID from group 0x560c030cb5a0
+00:00:13.817 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c030cb5a0
+00:00:13.818 [sway/ipc-server.c:537] Client 53 writable
+00:00:13.818 [sway/ipc-server.c:537] Client 61 writable
+00:00:13.817 [backend/session/logind.c:119] Failed to release device '34': Device not taken
+00:00:13.867 [backend/libinput/events.c:208] Removing Logitech USB Optical Mouse [1133:49176]
+00:00:13.870 [sway/input/input-manager.c:198] removing device: '1133:49176:Logitech_USB_Optical_Mouse'
+00:00:13.870 [sway/input/seat.c:837] removing device 1133:49176:Logitech_USB_Optical_Mouse from seat seat0
+00:00:13.871 [sway/desktop/layer_shell.c:332] Layer surface destroyed (wallpaper)
+00:00:13.882 [sway/ipc-server.c:220] Client 50 readable
+00:00:13.882 [sway/ipc-server.c:951] Added IPC reply of type 0x1 to client 50 queue: [ ]
+00:00:13.882 [sway/ipc-server.c:220] Client 59 readable
+00:00:13.882 [sway/ipc-server.c:951] Added IPC reply of type 0x4 to client 59 queue: { "id": 1, "name": "root", "rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "focused": false, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 2147483647, "name": "__i3", "rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "focused": false, "focus": [ 2147483646 ], "border": "none", "current_border_width": 0, "layout": "output", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 2147483646, "name": "__i3_scratch", "rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "focused": false, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "type": "workspace" } ], "floating_nodes": [ ], "sticky": false, "type": "output" } ], "floating_nodes": [ ], "sticky": false, "type": "root" }
+00:00:13.883 [sway/ipc-server.c:537] Client 50 writable
+00:00:13.883 [sway/ipc-server.c:537] Client 59 writable
+00:00:13.881 [backend/session/logind.c:119] Failed to release device '35': Device not taken
+00:00:13.907 [backend/libinput/events.c:208] Removing Dell Dell USB Keyboard Hub [16700:8194]
+00:00:13.910 [sway/input/input-manager.c:198] removing device: '16700:8194:Dell_Dell_USB_Keyboard_Hub'
+00:00:13.910 [sway/input/seat.c:837] removing device 16700:8194:Dell_Dell_USB_Keyboard_Hub from seat seat0
+00:00:13.910 [sway/input/keyboard.c:699] Removing keyboard 16700:8194:Dell_Dell_USB_Keyboard_Hub from group 0x560c03104d00
+00:00:13.910 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c03104d00
+00:00:13.910 [backend/session/logind.c:119] Failed to release device '37': Device not taken
+00:00:13.960 [backend/libinput/events.c:208] Removing Dell Dell USB Keyboard Hub System Control [16700:8194]
+00:00:13.963 [sway/input/input-manager.c:198] removing device: '16700:8194:Dell_Dell_USB_Keyboard_Hub_System_Control'
+00:00:13.963 [sway/input/seat.c:837] removing device 16700:8194:Dell_Dell_USB_Keyboard_Hub_System_Control from seat seat0
+00:00:13.963 [sway/input/keyboard.c:699] Removing keyboard 16700:8194:Dell_Dell_USB_Keyboard_Hub_System_Control from group 0x560c031773b0
+00:00:13.963 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c031773b0
+00:00:13.963 [backend/session/logind.c:119] Failed to release device '36': Device not taken
+00:00:14.000 [backend/libinput/events.c:208] Removing Dell Dell USB Keyboard Hub Consumer Control [16700:8194]
+00:00:14.003 [sway/input/input-manager.c:198] removing device: '16700:8194:Dell_Dell_USB_Keyboard_Hub_Consumer_Control'
+00:00:14.003 [sway/input/seat.c:837] removing device 16700:8194:Dell_Dell_USB_Keyboard_Hub_Consumer_Control from seat seat0
+00:00:14.003 [sway/input/keyboard.c:699] Removing keyboard 16700:8194:Dell_Dell_USB_Keyboard_Hub_Consumer_Control from group 0x560c0313e460
+00:00:14.004 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c0313e460
+00:00:14.450 [sway/ipc-server.c:215] Client 59 hung up
+00:00:14.450 [sway/ipc-server.c:567] IPC Client 59 disconnected
+00:00:14.450 [sway/ipc-server.c:220] Client 61 readable
+00:00:14.450 [sway/ipc-server.c:256] IPC header check failed
+00:00:14.450 [sway/ipc-server.c:567] IPC Client 61 disconnected
+00:00:14.451 [sway/ipc-server.c:215] Client 50 hung up
+00:00:14.451 [sway/ipc-server.c:567] IPC Client 50 disconnected
+00:00:14.451 [sway/ipc-server.c:220] Client 53 readable
+00:00:14.451 [sway/ipc-server.c:256] IPC header check failed
+00:00:14.451 [sway/ipc-server.c:567] IPC Client 53 disconnected
+00:00:14.452 [sway/ipc-server.c:215] Client 55 hung up
+00:00:14.452 [sway/ipc-server.c:567] IPC Client 55 disconnected
+00:00:14.452 [sway/ipc-server.c:220] Client 57 readable
+00:00:14.452 [sway/ipc-server.c:256] IPC header check failed
+00:00:14.452 [sway/ipc-server.c:567] IPC Client 57 disconnected
+00:00:14.454 [sway/desktop/layer_shell.c:332] Layer surface destroyed (waybar)
+00:00:16.238 [sway/input/switch.c:79] 0:5:Lid_Switch: type 1 state 0
+00:00:16.238 [sway/commands/bind.c:613] running command for binding: output eDP-1 enable
+00:00:16.238 [sway/commands.c:255] Handling command 'output eDP-1 enable'
+00:00:16.238 [sway/commands.c:423] Subcommand: enable
+00:00:16.239 [sway/config/output.c:204] Merging on top of existing output config
+00:00:16.239 [sway/config/output.c:227] Config stored for output eDP-1 (enabled: 1) (3840x2160@-1.000000Hz position 0,0 scale 2.000000 subpixel unknown transform -1) (bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill) (dpms 0) (max render time: -1)
+00:00:16.239 [sway/config/output.c:356] Turning on output eDP-1
+00:00:16.239 [sway/config/output.c:360] Set eDP-1 mode to 3840x2160 (-1.000000 Hz)
+00:00:16.239 [sway/config/output.c:266] Assigning configured mode to eDP-1
+00:00:16.239 [sway/config/output.c:401] Committing output eDP-1
+00:00:16.236 [backend/drm/drm.c:1124] Reallocating CRTCs
+00:00:16.236 [backend/drm/drm.c:1135] State before reallocation:
+00:00:16.236 [backend/drm/drm.c:1141]   'eDP-1' crtc=-1 state=3 desired_enabled=1
+00:00:16.236 [backend/drm/drm.c:1141]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:16.236 [backend/drm/drm.c:1141]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:16.236 [backend/drm/drm.c:1141]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:16.236 [backend/drm/drm.c:1141]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:16.236 [backend/drm/drm.c:1141]   'DP-4' crtc=-1 state=0 desired_enabled=1
+00:00:16.236 [backend/drm/drm.c:1193] State after reallocation:
+00:00:16.236 [backend/drm/drm.c:1200]   'eDP-1' crtc=2 state=3 desired_enabled=1
+00:00:16.236 [backend/drm/drm.c:633] Initializing renderer on connector 'eDP-1'
+00:00:16.541 [backend/drm/drm.c:1200]   'DP-1' crtc=-1 state=0 desired_enabled=0
+00:00:16.541 [backend/drm/drm.c:1200]   'HDMI-A-1' crtc=-1 state=0 desired_enabled=0
+00:00:16.541 [backend/drm/drm.c:1200]   'DP-2' crtc=-1 state=0 desired_enabled=0
+00:00:16.541 [backend/drm/drm.c:1200]   'HDMI-A-2' crtc=-1 state=0 desired_enabled=0
+00:00:16.541 [backend/drm/drm.c:1200]   'DP-4' crtc=-1 state=0 desired_enabled=1
+00:00:16.557 [backend/drm/drm.c:611] Starting renderer on output 'eDP-1'
+00:00:16.594 [sway/config/output.c:433] Set eDP-1 position to 0, 0
+00:00:16.594 [sway/tree/workspace.c:283] Workspace: Generating new workspace name for output eDP-1
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '1'
+00:00:16.594 [sway/tree/workspace.c:274] Workspace: Found free name 1
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '2'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '3'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '4'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '5'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '6'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '7'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '8'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '9'
+00:00:16.594 [sway/tree/workspace.c:218] Got valid workspace command for target: '10'
+00:00:16.594 [sway/tree/output.c:127] Creating default workspace 1
+00:00:16.594 [sway/tree/workspace.c:63] Adding workspace 1 for output eDP-1
+00:00:16.594 [sway/tree/arrange.c:263] Usable area for ws: 1920x1080@0,0
+00:00:16.594 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 4.000000
+00:00:16.594 [sway/desktop/transaction.c:411] Transaction 0x560c02f58a20 committing with 2 instructions
+00:00:16.594 [sway/desktop/transaction.c:280] Applying transaction 0x560c02f58a20
+00:00:16.617 [backend/drm/drm.c:397] Skipping pageflip on output 'eDP-1'
+2020-03-13 23:56:27 - [swaybg/main.c:299] Found config * for output eDP-1 (Sharp Corporation 0x1476 0x00000000)
+00:00:16.620 [types/wlr_surface.c:615] New wlr_surface 0x560c02f11840 (res 0x560c032258e0)
+00:00:16.620 [types/wlr_layer_shell_v1.c:433] new layer_surface 0x560c028c98e0 (res 0x560c03225fa0)
+00:00:16.623 [sway/desktop/layer_shell.c:502] new layer surface: namespace wallpaper layer 0 anchor 0 size 0x0 margin 0,0,0,0
+00:00:16.624 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:16.625 [sway/ipc-server.c:200] New client: fd 33
+00:00:16.625 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:16.625 [sway/ipc-server.c:200] New client: fd 35
+00:00:16.625 [sway/ipc-server.c:220] Client 35 readable
+00:00:16.625 [sway/ipc-server.c:951] Added IPC reply of type 0x2 to client 35 queue: {"success": true}
+00:00:16.625 [sway/ipc-server.c:537] Client 35 writable
+00:00:16.625 [sway/ipc-server.c:220] Client 33 readable
+00:00:16.625 [sway/ipc-server.c:951] Added IPC reply of type 0x1 to client 33 queue: [ { "id": 7, "name": "1", "rect": { "x": 4, "y": 4, "width": 1912, "height": 1072 }, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 1, "output": "eDP-1", "type": "workspace", "representation": null, "focused": true, "visible": true } ]
+00:00:16.625 [sway/ipc-server.c:537] Client 33 writable
+00:00:16.626 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:16.626 [sway/ipc-server.c:200] New client: fd 37
+00:00:16.626 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:16.626 [sway/ipc-server.c:200] New client: fd 52
+00:00:16.626 [sway/ipc-server.c:220] Client 52 readable
+00:00:16.626 [sway/ipc-server.c:951] Added IPC reply of type 0x2 to client 52 queue: {"success": true}
+00:00:16.626 [sway/ipc-server.c:537] Client 52 writable
+00:00:16.629 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:16.629 [sway/ipc-server.c:200] New client: fd 54
+00:00:16.629 [sway/ipc-server.c:154] Event on IPC listening socket
+00:00:16.629 [sway/ipc-server.c:200] New client: fd 56
+00:00:16.629 [sway/ipc-server.c:220] Client 56 readable
+00:00:16.630 [sway/ipc-server.c:951] Added IPC reply of type 0x2 to client 56 queue: {"success": true}
+00:00:16.630 [sway/ipc-server.c:537] Client 56 writable
+00:00:16.630 [sway/ipc-server.c:220] Client 54 readable
+00:00:16.631 [sway/ipc-server.c:951] Added IPC reply of type 0x4 to client 54 queue: { "id": 1, "name": "root", "rect": { "x": 0, "y": 0, "width": 1920, "height": 1080 }, "focused": false, "focus": [ 3 ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 2147483647, "name": "__i3", "rect": { "x": 0, "y": 0, "width": 1920, "height": 1080 }, "focused": false, "focus": [ 2147483646 ], "border": "none", "current_border_width": 0, "layout": "output", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 2147483646, "name": "__i3_scratch", "rect": { "x": 0, "y": 0, "width": 1920, "height": 1080 }, "focused": false, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "type": "workspace" } ], "floating_nodes": [ ], "sticky": false, "type": "output" }, { "id": 3, "name": "eDP-1", "rect": { "x": 0, "y": 0, "width": 1920, "height": 1080 }, "focused": false, "focus": [ 7 ], "border": "none", "current_border_width": 0, "layout": "output", "orientation": "none", "percent": 1.0, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 0, "nodes": [ { "id": 7, "name": "1", "rect": { "x": 4, "y": 4, "width": 1912, "height": 1072 }, "focused": true, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 1, "output": "eDP-1", "type": "workspace", "representation": null } ], "floating_nodes": [ ], "sticky": false, "type": "output", "active": true, "dpms": true, "primary": false, "make": "Sharp Corporation", "model": "0x1476", "serial": "0x00000000", "scale": 2.0, "scale_filter": "nearest", "transform": "normal", "adaptive_sync_status": "disabled", "current_workspace": "1", "modes": [ { "width": 3840, "height": 2160, "refresh": 59997 } ], "current_mode": { "width": 3840, "height": 2160, "refresh": 59997 }, "max_render_time": 0 } ], "floating_nodes": [ ], "sticky": false, "type": "root" }
+00:00:16.631 [sway/ipc-server.c:537] Client 54 writable
+00:00:16.642 [types/wlr_surface.c:615] New wlr_surface 0x560c02f11ba0 (res 0x560c02e6b6b0)
+00:00:16.642 [types/wlr_layer_shell_v1.c:433] new layer_surface 0x560c0324f520 (res 0x560c02e6b590)
+00:00:16.645 [sway/desktop/layer_shell.c:502] new layer surface: namespace waybar layer 2 anchor 2 size 0x30 margin 0,0,0,0
+00:00:16.792 [sway/desktop/layer_shell.c:178] Usable area changed, rearranging output
+00:00:16.792 [sway/tree/arrange.c:263] Usable area for ws: 1920x1050@0,30
+00:00:16.792 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 34.000000
+00:00:16.792 [sway/desktop/transaction.c:411] Transaction 0x560c02f58c40 committing with 1 instructions
+00:00:16.792 [sway/desktop/transaction.c:280] Applying transaction 0x560c02f58c40
+00:00:18.926 [backend/session/logind.c:275] SessionRemoved signal received
+00:00:28.163 [sway/input/switch.c:79] 0:5:Lid_Switch: type 1 state 1
+00:00:28.163 [sway/commands/bind.c:613] running command for binding: 0܌V
+00:00:28.163 [sway/commands.c:255] Handling command '0܌V'
+00:00:28.163 [sway/commands/bind.c:632] could not run command for binding: 0܌V (Unknown/invalid command '0܌')
+00:00:35.252 [sway/input/switch.c:79] 0:5:Lid_Switch: type 1 state 0
+00:00:35.252 [sway/commands/bind.c:613] running command for binding: output eDP-1 enable
+00:00:35.252 [sway/commands.c:255] Handling command 'output eDP-1 enable'
+00:00:35.252 [sway/commands.c:423] Subcommand: enable
+00:00:35.252 [sway/config/output.c:204] Merging on top of existing output config
+00:00:35.252 [sway/config/output.c:227] Config stored for output eDP-1 (enabled: 1) (3840x2160@-1.000000Hz position 0,0 scale 2.000000 subpixel unknown transform -1) (bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill) (dpms 0) (max render time: -1)
+00:00:35.252 [sway/config/output.c:356] Turning on output eDP-1
+00:00:35.252 [sway/config/output.c:360] Set eDP-1 mode to 3840x2160 (-1.000000 Hz)
+00:00:35.252 [sway/config/output.c:266] Assigning configured mode to eDP-1
+00:00:35.252 [sway/config/output.c:401] Committing output eDP-1
+00:00:35.252 [sway/config/output.c:433] Set eDP-1 position to 0, 0
+00:00:35.252 [sway/tree/arrange.c:263] Usable area for ws: 1920x1050@0,30
+00:00:35.253 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 34.000000
+00:00:35.253 [sway/desktop/transaction.c:411] Transaction 0x560c02fa5d90 committing with 1 instructions
+00:00:35.253 [sway/desktop/transaction.c:280] Applying transaction 0x560c02fa5d90
+00:00:38.606 [sway/commands/bind.c:613] running command for binding: mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown"
+00:00:38.606 [sway/commands.c:255] Handling command 'mode "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown"'
+00:00:38.606 [sway/commands/mode.c:74] Switching to mode `System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown' (pango=0)
+00:00:38.606 [sway/ipc-server.c:377] Sending mode::System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown event
+00:00:38.606 [sway/ipc-server.c:951] Added IPC reply of type 0x80000002 to client 52 queue: { "change": "System: (l) lock, (e) logout, (s) suspend, (r) reboot, (S) shutdown", "pango_markup": false }
+00:00:38.606 [sway/ipc-server.c:537] Client 52 writable
+00:00:39.063 [sway/commands/bind.c:613] running command for binding: exit
+00:00:39.063 [sway/commands.c:255] Handling command 'exit'
+00:00:39.063 [sway/main.c:412] Shutting down sway
+00:00:39.063 [sway/desktop/layer_shell.c:332] Layer surface destroyed (wallpaper)
+00:00:39.064 [sway/desktop/layer_shell.c:332] Layer surface destroyed (waybar)
+00:00:39.064 [sway/desktop/layer_shell.c:178] Usable area changed, rearranging output
+00:00:39.065 [sway/tree/arrange.c:263] Usable area for ws: 1920x1080@0,0
+00:00:39.065 [sway/tree/arrange.c:293] Arranging workspace '1' at 4.000000, 4.000000
+00:00:39.065 [sway/desktop/transaction.c:411] Transaction 0x560c02f58b30 committing with 1 instructions
+00:00:39.065 [sway/desktop/transaction.c:280] Applying transaction 0x560c02f58b30
+Gdk-Message: 23:56:49.944: Error reading events from display: Broken pipe
+00:00:40.186 [sway/tree/output.c:254] Disabling output 'eDP-1'
+00:00:40.186 [sway/tree/workspace.c:143] Destroying workspace '1'
+00:00:40.186 [sway/ipc-server.c:308] Sending workspace::empty event
+00:00:40.186 [sway/ipc-server.c:951] Added IPC reply of type 0x80000000 to client 35 queue: { "change": "empty", "old": null, "current": { "id": 7, "name": "1", "rect": { "x": 4, "y": 4, "width": 1912, "height": 1072 }, "focused": true, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 1, "output": null, "type": "workspace", "representation": null } }
+00:00:40.187 [sway/ipc-server.c:951] Added IPC reply of type 0x80000000 to client 56 queue: { "change": "empty", "old": null, "current": { "id": 7, "name": "1", "rect": { "x": 4, "y": 4, "width": 1912, "height": 1072 }, "focused": true, "focus": [ ], "border": "none", "current_border_width": 0, "layout": "splith", "orientation": "horizontal", "percent": null, "window_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "deco_rect": { "x": 0, "y": 0, "width": 0, "height": 0 }, "geometry": { "x": 0, "y": 0, "width": 0, "height": 0 }, "window": null, "urgent": false, "marks": [ ], "fullscreen_mode": 1, "nodes": [ ], "floating_nodes": [ ], "sticky": false, "num": 1, "output": null, "type": "workspace", "representation": null } }
+00:00:40.187 [sway/desktop/transaction.c:411] Transaction 0x560c02e34f50 committing with 2 instructions
+00:00:40.187 [sway/desktop/transaction.c:280] Applying transaction 0x560c02e34f50
+00:00:40.187 [sway/tree/output.c:275] Destroying output 'eDP-1'
+00:00:40.187 [sway/desktop/transaction.c:411] Transaction 0x560c02e34f50 committing with 1 instructions
+00:00:40.187 [sway/desktop/transaction.c:280] Applying transaction 0x560c02e34f50
+00:00:40.184 [backend/drm/drm.c:1668] Emitting destruction signal for 'eDP-1'
+00:00:40.184 [backend/drm/drm.c:1104] De-allocating CRTC 2 for output 'eDP-1'
+00:00:40.184 [backend/drm/atomic.c:56] eDP-1: Atomic commit failed (modeset): Invalid argument
+00:00:40.184 [backend/drm/atomic.c:62] eDP-1: Atomic commit without new changes failed (modeset): Invalid argument
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:1:Power_Button'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:1:Power_Button from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:1:Power_Button from group 0x560c02f79300
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c02f79300
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:6:Video_Bus'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:6:Video_Bus from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:6:Video_Bus from group 0x560c02fa6140
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c02fa6140
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:6:Video_Bus'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:6:Video_Bus from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:6:Video_Bus from group 0x560c02fd0460
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c02fd0460
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:1:Power_Button'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:1:Power_Button from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:1:Power_Button from group 0x560c030109e0
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c030109e0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:5:Lid_Switch'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:5:Lid_Switch from seat seat0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:3:Sleep_Button'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:3:Sleep_Button from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:3:Sleep_Button from group 0x560c03051c00
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c03051c00
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '3141:26387:Integrated_Webcam_HD:_Integrate'
+00:00:40.219 [sway/input/seat.c:837] removing device 3141:26387:Integrated_Webcam_HD:_Integrate from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 3141:26387:Integrated_Webcam_HD:_Integrate from group 0x560c0308b2e0
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c0308b2e0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '1267:9376:ELAN_Touchscreen'
+00:00:40.219 [sway/input/seat.c:837] removing device 1267:9376:ELAN_Touchscreen from seat seat0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '1739:31251:DLL07BF:01_06CB:7A13_Mouse'
+00:00:40.219 [sway/input/seat.c:837] removing device 1739:31251:DLL07BF:01_06CB:7A13_Mouse from seat seat0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '1739:31251:DLL07BF:01_06CB:7A13_Touchpad'
+00:00:40.219 [sway/input/seat.c:837] removing device 1739:31251:DLL07BF:01_06CB:7A13_Touchpad from seat seat0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:0:Intel_HID_events'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:0:Intel_HID_events from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:0:Intel_HID_events from group 0x560c031b0920
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c031b0920
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:0:Intel_HID_5_button_array'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:0:Intel_HID_5_button_array from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:0:Intel_HID_5_button_array from group 0x560c031ea140
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c031ea140
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '0:0:Dell_WMI_hotkeys'
+00:00:40.219 [sway/input/seat.c:837] removing device 0:0:Dell_WMI_hotkeys from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 0:0:Dell_WMI_hotkeys from group 0x560c032239f0
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c032239f0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '1:1:AT_Translated_Set_2_keyboard'
+00:00:40.219 [sway/input/seat.c:837] removing device 1:1:AT_Translated_Set_2_keyboard from seat seat0
+00:00:40.219 [sway/input/keyboard.c:699] Removing keyboard 1:1:AT_Translated_Set_2_keyboard from group 0x560c0325cdb0
+00:00:40.219 [sway/input/keyboard.c:705] Destroying empty keyboard group 0x560c0325cdb0
+00:00:40.219 [sway/input/input-manager.c:198] removing device: '2:1:PS/2_Synaptics_TouchPad'
+00:00:40.219 [sway/input/seat.c:837] removing device 2:1:PS/2_Synaptics_TouchPad from seat seat0
+00:00:41.351 [sway/ipc-server.c:567] IPC Client 56 disconnected
+00:00:41.351 [sway/ipc-server.c:567] IPC Client 54 disconnected
+00:00:41.351 [sway/ipc-server.c:567] IPC Client 52 disconnected
+00:00:41.351 [sway/ipc-server.c:567] IPC Client 37 disconnected
+00:00:41.351 [sway/ipc-server.c:567] IPC Client 35 disconnected
+00:00:41.351 [sway/ipc-server.c:567] IPC Client 33 disconnected
+corrupted double-linked list
